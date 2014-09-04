@@ -1,0 +1,9 @@
+.main-nav	{
+	width: 15em;
+	border: 2px groove red;
+	display: inline-block;
+}
+
+.main-nav a {
+	display: block;
+}
