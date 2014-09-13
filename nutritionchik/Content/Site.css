@@ -43,10 +43,13 @@ input[type="checkbox"].input-validation-error {
 
 .main-nav {
     width: 15em;
-    border: 2px groove red;
     display: inline-block;
 }
 
 .main-nav a {
     display: block;
+}
+
+origin-vid {
+    background-color: azure;
 }
