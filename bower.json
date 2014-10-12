@@ -1,0 +1,49 @@
+{
+  "name": "nutrichik",
+  "version": "0.0.1",
+  "homepage": "https://github.com/trisys3/nutrichik",
+  "authors": [
+    "sean_r_moran@msn.com <sean_r_moran@msn.com>"
+  ],
+  "description": "My sister Shannon's nutrition site",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-cookies": "latest",
+    "angular-resource": "latest",
+    "angular-mocks": "latest",
+    "angular-animate": "latest",
+    "angular-bootstrap": "latest",
+    "angular-touch": "latest",
+
+    "angular-ui-router": "latest",
+    "angular-ui-utils": "latest",
+
+    "bootstrap-css": "latest",
+    
+    "jquery": "latest",
+    "jquery-ui": "latest"
+  },
+  "devDependencies": {
+    "qunit"
+  },
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "nutrition",
+    "diet",
+    "nutrichik"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

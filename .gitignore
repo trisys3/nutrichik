@@ -1,0 +1,7 @@
+node_modules/				# npm modules
+app/src/.cache/			# app cache
+npm-debug.log				# npm debug log
+bower_components/		# bower modules
+
+############### OS Files ###############
+.DS_Store proprietary desktop database
