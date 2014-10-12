@@ -1,0 +1,91 @@
+{
+  "name": "nutrichik",
+  "version": "0.0.1",
+  "private": true,
+  "description": "My sister Shannon's nutrition site",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bower": "latest",
+    "express": "latest",
+
+    "body-parser": "latest",
+    "method-override": "latest",
+    "cookie-parser": "latest",
+    "vhost": "latest",
+    "compression": "latest",
+    "connect-flash": "latest",
+    "helmet": "latest",
+    "morgan": "latest",
+
+    "passport": "latest",
+    "passport-local": "latest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-csslint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-coffeelint": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-env": "latest",
+    "grunt-express": "latest",
+    "grunt-newer": "latest",
+    "grunt-shell-spawn": "latest",
+    "grunt-contrib-qunit": "latest",
+    "grunt-karma": "latest",
+    "grunt-contrib-jasmine": "latest",
+    "grunt-buster": "latest",
+    "time-grunt": "latest",
+    "load-config-grunt": "latest",
+
+    "buster": "latest",
+    "qunit": "latest",
+    "jasmine": "latest",
+    "karma": "latest",
+    "karma-jasmine": "latest",
+    "karma-chrome-launcher": "latest",
+    "karma-firefox-runner": "latest",
+    "karma-ie-launcher": "latest",
+    "karma-safari-launcher": "latest",
+    "karma-opera-launcher": "latest",
+    "should": "latest",
+    "phantomjs": "latest",
+    "supertest": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trisys3/nutrichik.git"
+  },
+  "keywords": [
+    "nutrichik",
+    "nutrition",
+    "diet"
+  ],
+  "author": {
+    "name": "Sean Moran",
+    "email": "sean_r_moran@msn.com"
+  },
+  "contributors": [
+    {
+      "name": "Richard Moran"
+    },
+    {
+      "name": "Shannon Moran"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trisys3/nutrichik/issues"
+  },
+  "homepage": "https://github.com/trisys3/nutrichik"
+}

@@ -1,0 +1,2523 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.1.3
+3 info using node@v0.10.32
+4 verbose install where, deps [ 'c:\\repos\\nutrichik',
+4 verbose install   [ 'bower',
+4 verbose install     'express',
+4 verbose install     'body-parser',
+4 verbose install     'method-override',
+4 verbose install     'cookie-parser',
+4 verbose install     'vhost',
+4 verbose install     'compression',
+4 verbose install     'connect-flash',
+4 verbose install     'helmet',
+4 verbose install     'morgan',
+4 verbose install     'passport',
+4 verbose install     'passport-local',
+4 verbose install     'grunt',
+4 verbose install     'grunt-contrib-jshint',
+4 verbose install     'grunt-contrib-csslint',
+4 verbose install     'grunt-contrib-uglify',
+4 verbose install     'grunt-contrib-cssmin',
+4 verbose install     'grunt-contrib-coffeelint',
+4 verbose install     'grunt-contrib-sass',
+4 verbose install     'grunt-contrib-coffee',
+4 verbose install     'grunt-contrib-watch',
+4 verbose install     'grunt-concurrent',
+4 verbose install     'grunt-env',
+4 verbose install     'grunt-express',
+4 verbose install     'grunt-newer',
+4 verbose install     'grunt-shell-spawn',
+4 verbose install     'grunt-contrib-qunit',
+4 verbose install     'grunt-karma',
+4 verbose install     'grunt-contrib-jasmine',
+4 verbose install     'grunt-buster',
+4 verbose install     'time-grunt',
+4 verbose install     'load-config-grunt',
+4 verbose install     'buster',
+4 verbose install     'qunit',
+4 verbose install     'jasmine',
+4 verbose install     'karma',
+4 verbose install     'karma-jasmine-runner',
+4 verbose install     'karma-chrome-launcher',
+4 verbose install     'karma-firefox-runner',
+4 verbose install     'karma-ie-launcher',
+4 verbose install     'karma-safari-launcher',
+4 verbose install     'karma-opera-launcher',
+4 verbose install     'should',
+4 verbose install     'phantomjs',
+4 verbose install     'supertest' ] ]
+5 info preinstall nutrichik@0.0.1
+6 silly cache add args [ 'bower@latest', null ]
+7 verbose cache add spec bower@latest
+8 silly cache add args [ 'express@latest', null ]
+9 verbose cache add spec express@latest
+10 silly cache add args [ 'body-parser@latest', null ]
+11 verbose cache add spec body-parser@latest
+12 silly cache add args [ 'method-override@latest', null ]
+13 verbose cache add spec method-override@latest
+14 silly cache add args [ 'cookie-parser@latest', null ]
+15 verbose cache add spec cookie-parser@latest
+16 silly cache add args [ 'vhost@latest', null ]
+17 verbose cache add spec vhost@latest
+18 silly cache add args [ 'compression@latest', null ]
+19 verbose cache add spec compression@latest
+20 silly cache add args [ 'connect-flash@latest', null ]
+21 verbose cache add spec connect-flash@latest
+22 silly cache add args [ 'helmet@latest', null ]
+23 verbose cache add spec helmet@latest
+24 silly cache add args [ 'morgan@latest', null ]
+25 verbose cache add spec morgan@latest
+26 silly cache add args [ 'passport@latest', null ]
+27 verbose cache add spec passport@latest
+28 silly cache add args [ 'passport-local@latest', null ]
+29 verbose cache add spec passport-local@latest
+30 silly cache add args [ 'grunt@latest', null ]
+31 verbose cache add spec grunt@latest
+32 silly cache add args [ 'grunt-contrib-jshint@latest', null ]
+33 verbose cache add spec grunt-contrib-jshint@latest
+34 silly cache add args [ 'grunt-contrib-csslint@latest', null ]
+35 verbose cache add spec grunt-contrib-csslint@latest
+36 silly cache add args [ 'grunt-contrib-uglify@latest', null ]
+37 verbose cache add spec grunt-contrib-uglify@latest
+38 silly cache add args [ 'grunt-contrib-cssmin@latest', null ]
+39 verbose cache add spec grunt-contrib-cssmin@latest
+40 silly cache add args [ 'grunt-contrib-coffeelint@latest', null ]
+41 verbose cache add spec grunt-contrib-coffeelint@latest
+42 silly cache add args [ 'grunt-contrib-sass@latest', null ]
+43 verbose cache add spec grunt-contrib-sass@latest
+44 silly cache add args [ 'grunt-contrib-coffee@latest', null ]
+45 verbose cache add spec grunt-contrib-coffee@latest
+46 silly cache add args [ 'grunt-contrib-watch@latest', null ]
+47 verbose cache add spec grunt-contrib-watch@latest
+48 silly cache add args [ 'grunt-concurrent@latest', null ]
+49 verbose cache add spec grunt-concurrent@latest
+50 silly cache add args [ 'grunt-env@latest', null ]
+51 verbose cache add spec grunt-env@latest
+52 silly cache add args [ 'grunt-express@latest', null ]
+53 verbose cache add spec grunt-express@latest
+54 silly cache add args [ 'grunt-newer@latest', null ]
+55 verbose cache add spec grunt-newer@latest
+56 silly cache add args [ 'grunt-shell-spawn@latest', null ]
+57 verbose cache add spec grunt-shell-spawn@latest
+58 silly cache add args [ 'grunt-contrib-qunit@latest', null ]
+59 verbose cache add spec grunt-contrib-qunit@latest
+60 silly cache add args [ 'grunt-karma@latest', null ]
+61 verbose cache add spec grunt-karma@latest
+62 silly cache add args [ 'grunt-contrib-jasmine@latest', null ]
+63 verbose cache add spec grunt-contrib-jasmine@latest
+64 silly cache add args [ 'grunt-buster@latest', null ]
+65 verbose cache add spec grunt-buster@latest
+66 silly cache add args [ 'time-grunt@latest', null ]
+67 verbose cache add spec time-grunt@latest
+68 silly cache add args [ 'load-config-grunt@latest', null ]
+69 verbose cache add spec load-config-grunt@latest
+70 silly cache add parsed spec { raw: 'bower@latest',
+70 silly cache add   scope: null,
+70 silly cache add   name: 'bower',
+70 silly cache add   rawSpec: 'latest',
+70 silly cache add   spec: 'latest',
+70 silly cache add   type: 'tag' }
+71 verbose addNamed bower@latest
+72 verbose addNamed bower@latest not in flight; adding
+73 silly addNamed semver.valid null
+74 silly addNamed semver.validRange null
+75 info addNameTag [ 'bower', 'latest' ]
+76 verbose mapToRegistry name bower
+77 verbose mapToRegistry uri https://registry.npmjs.org/bower
+78 silly cache add parsed spec { raw: 'express@latest',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'express',
+78 silly cache add   rawSpec: 'latest',
+78 silly cache add   spec: 'latest',
+78 silly cache add   type: 'tag' }
+79 verbose addNamed express@latest
+80 verbose addNamed express@latest not in flight; adding
+81 silly addNamed semver.valid null
+82 silly addNamed semver.validRange null
+83 info addNameTag [ 'express', 'latest' ]
+84 verbose mapToRegistry name express
+85 verbose mapToRegistry uri https://registry.npmjs.org/express
+86 silly cache add parsed spec { raw: 'body-parser@latest',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'body-parser',
+86 silly cache add   rawSpec: 'latest',
+86 silly cache add   spec: 'latest',
+86 silly cache add   type: 'tag' }
+87 verbose addNamed body-parser@latest
+88 verbose addNamed body-parser@latest not in flight; adding
+89 silly addNamed semver.valid null
+90 silly addNamed semver.validRange null
+91 info addNameTag [ 'body-parser', 'latest' ]
+92 verbose mapToRegistry name body-parser
+93 verbose mapToRegistry uri https://registry.npmjs.org/body-parser
+94 silly cache add parsed spec { raw: 'method-override@latest',
+94 silly cache add   scope: null,
+94 silly cache add   name: 'method-override',
+94 silly cache add   rawSpec: 'latest',
+94 silly cache add   spec: 'latest',
+94 silly cache add   type: 'tag' }
+95 verbose addNamed method-override@latest
+96 verbose addNamed method-override@latest not in flight; adding
+97 silly addNamed semver.valid null
+98 silly addNamed semver.validRange null
+99 info addNameTag [ 'method-override', 'latest' ]
+100 verbose mapToRegistry name method-override
+101 verbose mapToRegistry uri https://registry.npmjs.org/method-override
+102 silly cache add parsed spec { raw: 'cookie-parser@latest',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'cookie-parser',
+102 silly cache add   rawSpec: 'latest',
+102 silly cache add   spec: 'latest',
+102 silly cache add   type: 'tag' }
+103 verbose addNamed cookie-parser@latest
+104 verbose addNamed cookie-parser@latest not in flight; adding
+105 silly addNamed semver.valid null
+106 silly addNamed semver.validRange null
+107 info addNameTag [ 'cookie-parser', 'latest' ]
+108 verbose mapToRegistry name cookie-parser
+109 verbose mapToRegistry uri https://registry.npmjs.org/cookie-parser
+110 silly cache add parsed spec { raw: 'vhost@latest',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'vhost',
+110 silly cache add   rawSpec: 'latest',
+110 silly cache add   spec: 'latest',
+110 silly cache add   type: 'tag' }
+111 verbose addNamed vhost@latest
+112 verbose addNamed vhost@latest not in flight; adding
+113 silly addNamed semver.valid null
+114 silly addNamed semver.validRange null
+115 info addNameTag [ 'vhost', 'latest' ]
+116 verbose mapToRegistry name vhost
+117 verbose mapToRegistry uri https://registry.npmjs.org/vhost
+118 silly cache add parsed spec { raw: 'compression@latest',
+118 silly cache add   scope: null,
+118 silly cache add   name: 'compression',
+118 silly cache add   rawSpec: 'latest',
+118 silly cache add   spec: 'latest',
+118 silly cache add   type: 'tag' }
+119 verbose addNamed compression@latest
+120 verbose addNamed compression@latest not in flight; adding
+121 silly addNamed semver.valid null
+122 silly addNamed semver.validRange null
+123 info addNameTag [ 'compression', 'latest' ]
+124 verbose mapToRegistry name compression
+125 verbose mapToRegistry uri https://registry.npmjs.org/compression
+126 silly cache add parsed spec { raw: 'connect-flash@latest',
+126 silly cache add   scope: null,
+126 silly cache add   name: 'connect-flash',
+126 silly cache add   rawSpec: 'latest',
+126 silly cache add   spec: 'latest',
+126 silly cache add   type: 'tag' }
+127 verbose addNamed connect-flash@latest
+128 verbose addNamed connect-flash@latest not in flight; adding
+129 silly addNamed semver.valid null
+130 silly addNamed semver.validRange null
+131 info addNameTag [ 'connect-flash', 'latest' ]
+132 verbose mapToRegistry name connect-flash
+133 verbose mapToRegistry uri https://registry.npmjs.org/connect-flash
+134 silly cache add parsed spec { raw: 'helmet@latest',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'helmet',
+134 silly cache add   rawSpec: 'latest',
+134 silly cache add   spec: 'latest',
+134 silly cache add   type: 'tag' }
+135 verbose addNamed helmet@latest
+136 verbose addNamed helmet@latest not in flight; adding
+137 silly addNamed semver.valid null
+138 silly addNamed semver.validRange null
+139 info addNameTag [ 'helmet', 'latest' ]
+140 verbose mapToRegistry name helmet
+141 verbose mapToRegistry uri https://registry.npmjs.org/helmet
+142 silly cache add parsed spec { raw: 'morgan@latest',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'morgan',
+142 silly cache add   rawSpec: 'latest',
+142 silly cache add   spec: 'latest',
+142 silly cache add   type: 'tag' }
+143 verbose addNamed morgan@latest
+144 verbose addNamed morgan@latest not in flight; adding
+145 silly addNamed semver.valid null
+146 silly addNamed semver.validRange null
+147 info addNameTag [ 'morgan', 'latest' ]
+148 verbose mapToRegistry name morgan
+149 verbose mapToRegistry uri https://registry.npmjs.org/morgan
+150 silly cache add parsed spec { raw: 'passport@latest',
+150 silly cache add   scope: null,
+150 silly cache add   name: 'passport',
+150 silly cache add   rawSpec: 'latest',
+150 silly cache add   spec: 'latest',
+150 silly cache add   type: 'tag' }
+151 verbose addNamed passport@latest
+152 verbose addNamed passport@latest not in flight; adding
+153 silly addNamed semver.valid null
+154 silly addNamed semver.validRange null
+155 info addNameTag [ 'passport', 'latest' ]
+156 verbose mapToRegistry name passport
+157 verbose mapToRegistry uri https://registry.npmjs.org/passport
+158 silly cache add parsed spec { raw: 'passport-local@latest',
+158 silly cache add   scope: null,
+158 silly cache add   name: 'passport-local',
+158 silly cache add   rawSpec: 'latest',
+158 silly cache add   spec: 'latest',
+158 silly cache add   type: 'tag' }
+159 verbose addNamed passport-local@latest
+160 verbose addNamed passport-local@latest not in flight; adding
+161 silly addNamed semver.valid null
+162 silly addNamed semver.validRange null
+163 info addNameTag [ 'passport-local', 'latest' ]
+164 verbose mapToRegistry name passport-local
+165 verbose mapToRegistry uri https://registry.npmjs.org/passport-local
+166 silly cache add parsed spec { raw: 'grunt@latest',
+166 silly cache add   scope: null,
+166 silly cache add   name: 'grunt',
+166 silly cache add   rawSpec: 'latest',
+166 silly cache add   spec: 'latest',
+166 silly cache add   type: 'tag' }
+167 verbose addNamed grunt@latest
+168 verbose addNamed grunt@latest not in flight; adding
+169 silly addNamed semver.valid null
+170 silly addNamed semver.validRange null
+171 info addNameTag [ 'grunt', 'latest' ]
+172 verbose mapToRegistry name grunt
+173 verbose mapToRegistry uri https://registry.npmjs.org/grunt
+174 silly cache add parsed spec { raw: 'grunt-contrib-jshint@latest',
+174 silly cache add   scope: null,
+174 silly cache add   name: 'grunt-contrib-jshint',
+174 silly cache add   rawSpec: 'latest',
+174 silly cache add   spec: 'latest',
+174 silly cache add   type: 'tag' }
+175 verbose addNamed grunt-contrib-jshint@latest
+176 verbose addNamed grunt-contrib-jshint@latest not in flight; adding
+177 silly addNamed semver.valid null
+178 silly addNamed semver.validRange null
+179 info addNameTag [ 'grunt-contrib-jshint', 'latest' ]
+180 verbose mapToRegistry name grunt-contrib-jshint
+181 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+182 silly cache add parsed spec { raw: 'grunt-contrib-csslint@latest',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'grunt-contrib-csslint',
+182 silly cache add   rawSpec: 'latest',
+182 silly cache add   spec: 'latest',
+182 silly cache add   type: 'tag' }
+183 verbose addNamed grunt-contrib-csslint@latest
+184 verbose addNamed grunt-contrib-csslint@latest not in flight; adding
+185 silly addNamed semver.valid null
+186 silly addNamed semver.validRange null
+187 info addNameTag [ 'grunt-contrib-csslint', 'latest' ]
+188 verbose mapToRegistry name grunt-contrib-csslint
+189 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-csslint
+190 silly cache add parsed spec { raw: 'grunt-contrib-uglify@latest',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'grunt-contrib-uglify',
+190 silly cache add   rawSpec: 'latest',
+190 silly cache add   spec: 'latest',
+190 silly cache add   type: 'tag' }
+191 verbose addNamed grunt-contrib-uglify@latest
+192 verbose addNamed grunt-contrib-uglify@latest not in flight; adding
+193 silly addNamed semver.valid null
+194 silly addNamed semver.validRange null
+195 info addNameTag [ 'grunt-contrib-uglify', 'latest' ]
+196 verbose mapToRegistry name grunt-contrib-uglify
+197 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+198 silly cache add parsed spec { raw: 'grunt-contrib-cssmin@latest',
+198 silly cache add   scope: null,
+198 silly cache add   name: 'grunt-contrib-cssmin',
+198 silly cache add   rawSpec: 'latest',
+198 silly cache add   spec: 'latest',
+198 silly cache add   type: 'tag' }
+199 verbose addNamed grunt-contrib-cssmin@latest
+200 verbose addNamed grunt-contrib-cssmin@latest not in flight; adding
+201 silly addNamed semver.valid null
+202 silly addNamed semver.validRange null
+203 info addNameTag [ 'grunt-contrib-cssmin', 'latest' ]
+204 verbose mapToRegistry name grunt-contrib-cssmin
+205 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+206 silly cache add parsed spec { raw: 'grunt-contrib-coffeelint@latest',
+206 silly cache add   scope: null,
+206 silly cache add   name: 'grunt-contrib-coffeelint',
+206 silly cache add   rawSpec: 'latest',
+206 silly cache add   spec: 'latest',
+206 silly cache add   type: 'tag' }
+207 verbose addNamed grunt-contrib-coffeelint@latest
+208 verbose addNamed grunt-contrib-coffeelint@latest not in flight; adding
+209 silly addNamed semver.valid null
+210 silly addNamed semver.validRange null
+211 info addNameTag [ 'grunt-contrib-coffeelint', 'latest' ]
+212 verbose mapToRegistry name grunt-contrib-coffeelint
+213 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-coffeelint
+214 silly cache add parsed spec { raw: 'grunt-contrib-sass@latest',
+214 silly cache add   scope: null,
+214 silly cache add   name: 'grunt-contrib-sass',
+214 silly cache add   rawSpec: 'latest',
+214 silly cache add   spec: 'latest',
+214 silly cache add   type: 'tag' }
+215 verbose addNamed grunt-contrib-sass@latest
+216 verbose addNamed grunt-contrib-sass@latest not in flight; adding
+217 silly addNamed semver.valid null
+218 silly addNamed semver.validRange null
+219 info addNameTag [ 'grunt-contrib-sass', 'latest' ]
+220 verbose mapToRegistry name grunt-contrib-sass
+221 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-sass
+222 silly cache add parsed spec { raw: 'grunt-contrib-coffee@latest',
+222 silly cache add   scope: null,
+222 silly cache add   name: 'grunt-contrib-coffee',
+222 silly cache add   rawSpec: 'latest',
+222 silly cache add   spec: 'latest',
+222 silly cache add   type: 'tag' }
+223 verbose addNamed grunt-contrib-coffee@latest
+224 verbose addNamed grunt-contrib-coffee@latest not in flight; adding
+225 silly addNamed semver.valid null
+226 silly addNamed semver.validRange null
+227 info addNameTag [ 'grunt-contrib-coffee', 'latest' ]
+228 verbose mapToRegistry name grunt-contrib-coffee
+229 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-coffee
+230 silly cache add parsed spec { raw: 'grunt-contrib-watch@latest',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'grunt-contrib-watch',
+230 silly cache add   rawSpec: 'latest',
+230 silly cache add   spec: 'latest',
+230 silly cache add   type: 'tag' }
+231 verbose addNamed grunt-contrib-watch@latest
+232 verbose addNamed grunt-contrib-watch@latest not in flight; adding
+233 silly addNamed semver.valid null
+234 silly addNamed semver.validRange null
+235 info addNameTag [ 'grunt-contrib-watch', 'latest' ]
+236 verbose mapToRegistry name grunt-contrib-watch
+237 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+238 silly cache add parsed spec { raw: 'grunt-concurrent@latest',
+238 silly cache add   scope: null,
+238 silly cache add   name: 'grunt-concurrent',
+238 silly cache add   rawSpec: 'latest',
+238 silly cache add   spec: 'latest',
+238 silly cache add   type: 'tag' }
+239 verbose addNamed grunt-concurrent@latest
+240 verbose addNamed grunt-concurrent@latest not in flight; adding
+241 silly addNamed semver.valid null
+242 silly addNamed semver.validRange null
+243 info addNameTag [ 'grunt-concurrent', 'latest' ]
+244 verbose mapToRegistry name grunt-concurrent
+245 verbose mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+246 silly cache add parsed spec { raw: 'grunt-env@latest',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'grunt-env',
+246 silly cache add   rawSpec: 'latest',
+246 silly cache add   spec: 'latest',
+246 silly cache add   type: 'tag' }
+247 verbose addNamed grunt-env@latest
+248 verbose addNamed grunt-env@latest not in flight; adding
+249 silly addNamed semver.valid null
+250 silly addNamed semver.validRange null
+251 info addNameTag [ 'grunt-env', 'latest' ]
+252 verbose mapToRegistry name grunt-env
+253 verbose mapToRegistry uri https://registry.npmjs.org/grunt-env
+254 silly cache add parsed spec { raw: 'grunt-express@latest',
+254 silly cache add   scope: null,
+254 silly cache add   name: 'grunt-express',
+254 silly cache add   rawSpec: 'latest',
+254 silly cache add   spec: 'latest',
+254 silly cache add   type: 'tag' }
+255 verbose addNamed grunt-express@latest
+256 verbose addNamed grunt-express@latest not in flight; adding
+257 silly addNamed semver.valid null
+258 silly addNamed semver.validRange null
+259 info addNameTag [ 'grunt-express', 'latest' ]
+260 verbose mapToRegistry name grunt-express
+261 verbose mapToRegistry uri https://registry.npmjs.org/grunt-express
+262 silly cache add parsed spec { raw: 'grunt-newer@latest',
+262 silly cache add   scope: null,
+262 silly cache add   name: 'grunt-newer',
+262 silly cache add   rawSpec: 'latest',
+262 silly cache add   spec: 'latest',
+262 silly cache add   type: 'tag' }
+263 verbose addNamed grunt-newer@latest
+264 verbose addNamed grunt-newer@latest not in flight; adding
+265 silly addNamed semver.valid null
+266 silly addNamed semver.validRange null
+267 info addNameTag [ 'grunt-newer', 'latest' ]
+268 verbose mapToRegistry name grunt-newer
+269 verbose mapToRegistry uri https://registry.npmjs.org/grunt-newer
+270 silly cache add parsed spec { raw: 'grunt-shell-spawn@latest',
+270 silly cache add   scope: null,
+270 silly cache add   name: 'grunt-shell-spawn',
+270 silly cache add   rawSpec: 'latest',
+270 silly cache add   spec: 'latest',
+270 silly cache add   type: 'tag' }
+271 verbose addNamed grunt-shell-spawn@latest
+272 verbose addNamed grunt-shell-spawn@latest not in flight; adding
+273 silly addNamed semver.valid null
+274 silly addNamed semver.validRange null
+275 info addNameTag [ 'grunt-shell-spawn', 'latest' ]
+276 verbose mapToRegistry name grunt-shell-spawn
+277 verbose mapToRegistry uri https://registry.npmjs.org/grunt-shell-spawn
+278 silly cache add parsed spec { raw: 'grunt-contrib-qunit@latest',
+278 silly cache add   scope: null,
+278 silly cache add   name: 'grunt-contrib-qunit',
+278 silly cache add   rawSpec: 'latest',
+278 silly cache add   spec: 'latest',
+278 silly cache add   type: 'tag' }
+279 verbose addNamed grunt-contrib-qunit@latest
+280 verbose addNamed grunt-contrib-qunit@latest not in flight; adding
+281 silly addNamed semver.valid null
+282 silly addNamed semver.validRange null
+283 info addNameTag [ 'grunt-contrib-qunit', 'latest' ]
+284 verbose mapToRegistry name grunt-contrib-qunit
+285 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-qunit
+286 silly cache add parsed spec { raw: 'grunt-karma@latest',
+286 silly cache add   scope: null,
+286 silly cache add   name: 'grunt-karma',
+286 silly cache add   rawSpec: 'latest',
+286 silly cache add   spec: 'latest',
+286 silly cache add   type: 'tag' }
+287 verbose addNamed grunt-karma@latest
+288 verbose addNamed grunt-karma@latest not in flight; adding
+289 silly addNamed semver.valid null
+290 silly addNamed semver.validRange null
+291 info addNameTag [ 'grunt-karma', 'latest' ]
+292 verbose mapToRegistry name grunt-karma
+293 verbose mapToRegistry uri https://registry.npmjs.org/grunt-karma
+294 silly cache add parsed spec { raw: 'grunt-contrib-jasmine@latest',
+294 silly cache add   scope: null,
+294 silly cache add   name: 'grunt-contrib-jasmine',
+294 silly cache add   rawSpec: 'latest',
+294 silly cache add   spec: 'latest',
+294 silly cache add   type: 'tag' }
+295 verbose addNamed grunt-contrib-jasmine@latest
+296 verbose addNamed grunt-contrib-jasmine@latest not in flight; adding
+297 silly addNamed semver.valid null
+298 silly addNamed semver.validRange null
+299 info addNameTag [ 'grunt-contrib-jasmine', 'latest' ]
+300 verbose mapToRegistry name grunt-contrib-jasmine
+301 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jasmine
+302 silly cache add parsed spec { raw: 'grunt-buster@latest',
+302 silly cache add   scope: null,
+302 silly cache add   name: 'grunt-buster',
+302 silly cache add   rawSpec: 'latest',
+302 silly cache add   spec: 'latest',
+302 silly cache add   type: 'tag' }
+303 verbose addNamed grunt-buster@latest
+304 verbose addNamed grunt-buster@latest not in flight; adding
+305 silly addNamed semver.valid null
+306 silly addNamed semver.validRange null
+307 info addNameTag [ 'grunt-buster', 'latest' ]
+308 verbose mapToRegistry name grunt-buster
+309 verbose mapToRegistry uri https://registry.npmjs.org/grunt-buster
+310 silly cache add parsed spec { raw: 'time-grunt@latest',
+310 silly cache add   scope: null,
+310 silly cache add   name: 'time-grunt',
+310 silly cache add   rawSpec: 'latest',
+310 silly cache add   spec: 'latest',
+310 silly cache add   type: 'tag' }
+311 verbose addNamed time-grunt@latest
+312 verbose addNamed time-grunt@latest not in flight; adding
+313 silly addNamed semver.valid null
+314 silly addNamed semver.validRange null
+315 info addNameTag [ 'time-grunt', 'latest' ]
+316 verbose mapToRegistry name time-grunt
+317 verbose mapToRegistry uri https://registry.npmjs.org/time-grunt
+318 silly cache add args [ 'buster@latest', null ]
+319 verbose cache add spec buster@latest
+320 silly cache add args [ 'qunit@latest', null ]
+321 verbose cache add spec qunit@latest
+322 silly cache add args [ 'jasmine@latest', null ]
+323 verbose cache add spec jasmine@latest
+324 silly cache add args [ 'karma@latest', null ]
+325 verbose cache add spec karma@latest
+326 silly cache add args [ 'karma-jasmine-runner@latest', null ]
+327 verbose cache add spec karma-jasmine-runner@latest
+328 silly cache add args [ 'karma-chrome-launcher@latest', null ]
+329 verbose cache add spec karma-chrome-launcher@latest
+330 silly cache add args [ 'karma-firefox-runner@latest', null ]
+331 verbose cache add spec karma-firefox-runner@latest
+332 silly cache add args [ 'karma-ie-launcher@latest', null ]
+333 verbose cache add spec karma-ie-launcher@latest
+334 silly cache add args [ 'karma-safari-launcher@latest', null ]
+335 verbose cache add spec karma-safari-launcher@latest
+336 silly cache add args [ 'karma-opera-launcher@latest', null ]
+337 verbose cache add spec karma-opera-launcher@latest
+338 silly cache add args [ 'should@latest', null ]
+339 verbose cache add spec should@latest
+340 silly cache add args [ 'phantomjs@latest', null ]
+341 verbose cache add spec phantomjs@latest
+342 silly cache add args [ 'supertest@latest', null ]
+343 verbose cache add spec supertest@latest
+344 silly cache add parsed spec { raw: 'load-config-grunt@latest',
+344 silly cache add   scope: null,
+344 silly cache add   name: 'load-config-grunt',
+344 silly cache add   rawSpec: 'latest',
+344 silly cache add   spec: 'latest',
+344 silly cache add   type: 'tag' }
+345 verbose addNamed load-config-grunt@latest
+346 verbose addNamed load-config-grunt@latest not in flight; adding
+347 silly addNamed semver.valid null
+348 silly addNamed semver.validRange null
+349 info addNameTag [ 'load-config-grunt', 'latest' ]
+350 verbose mapToRegistry name load-config-grunt
+351 verbose mapToRegistry uri https://registry.npmjs.org/load-config-grunt
+352 silly cache add parsed spec { raw: 'buster@latest',
+352 silly cache add   scope: null,
+352 silly cache add   name: 'buster',
+352 silly cache add   rawSpec: 'latest',
+352 silly cache add   spec: 'latest',
+352 silly cache add   type: 'tag' }
+353 verbose addNamed buster@latest
+354 verbose addNamed buster@latest not in flight; adding
+355 silly addNamed semver.valid null
+356 silly addNamed semver.validRange null
+357 info addNameTag [ 'buster', 'latest' ]
+358 verbose mapToRegistry name buster
+359 verbose mapToRegistry uri https://registry.npmjs.org/buster
+360 silly cache add parsed spec { raw: 'qunit@latest',
+360 silly cache add   scope: null,
+360 silly cache add   name: 'qunit',
+360 silly cache add   rawSpec: 'latest',
+360 silly cache add   spec: 'latest',
+360 silly cache add   type: 'tag' }
+361 verbose addNamed qunit@latest
+362 verbose addNamed qunit@latest not in flight; adding
+363 silly addNamed semver.valid null
+364 silly addNamed semver.validRange null
+365 info addNameTag [ 'qunit', 'latest' ]
+366 verbose mapToRegistry name qunit
+367 verbose mapToRegistry uri https://registry.npmjs.org/qunit
+368 silly cache add parsed spec { raw: 'jasmine@latest',
+368 silly cache add   scope: null,
+368 silly cache add   name: 'jasmine',
+368 silly cache add   rawSpec: 'latest',
+368 silly cache add   spec: 'latest',
+368 silly cache add   type: 'tag' }
+369 verbose addNamed jasmine@latest
+370 verbose addNamed jasmine@latest not in flight; adding
+371 silly addNamed semver.valid null
+372 silly addNamed semver.validRange null
+373 info addNameTag [ 'jasmine', 'latest' ]
+374 verbose mapToRegistry name jasmine
+375 verbose mapToRegistry uri https://registry.npmjs.org/jasmine
+376 silly cache add parsed spec { raw: 'karma@latest',
+376 silly cache add   scope: null,
+376 silly cache add   name: 'karma',
+376 silly cache add   rawSpec: 'latest',
+376 silly cache add   spec: 'latest',
+376 silly cache add   type: 'tag' }
+377 verbose addNamed karma@latest
+378 verbose addNamed karma@latest not in flight; adding
+379 silly addNamed semver.valid null
+380 silly addNamed semver.validRange null
+381 info addNameTag [ 'karma', 'latest' ]
+382 verbose mapToRegistry name karma
+383 verbose mapToRegistry uri https://registry.npmjs.org/karma
+384 silly cache add parsed spec { raw: 'karma-jasmine-runner@latest',
+384 silly cache add   scope: null,
+384 silly cache add   name: 'karma-jasmine-runner',
+384 silly cache add   rawSpec: 'latest',
+384 silly cache add   spec: 'latest',
+384 silly cache add   type: 'tag' }
+385 verbose addNamed karma-jasmine-runner@latest
+386 verbose addNamed karma-jasmine-runner@latest not in flight; adding
+387 silly addNamed semver.valid null
+388 silly addNamed semver.validRange null
+389 info addNameTag [ 'karma-jasmine-runner', 'latest' ]
+390 verbose mapToRegistry name karma-jasmine-runner
+391 verbose mapToRegistry uri https://registry.npmjs.org/karma-jasmine-runner
+392 silly cache add parsed spec { raw: 'karma-chrome-launcher@latest',
+392 silly cache add   scope: null,
+392 silly cache add   name: 'karma-chrome-launcher',
+392 silly cache add   rawSpec: 'latest',
+392 silly cache add   spec: 'latest',
+392 silly cache add   type: 'tag' }
+393 verbose addNamed karma-chrome-launcher@latest
+394 verbose addNamed karma-chrome-launcher@latest not in flight; adding
+395 silly addNamed semver.valid null
+396 silly addNamed semver.validRange null
+397 info addNameTag [ 'karma-chrome-launcher', 'latest' ]
+398 verbose mapToRegistry name karma-chrome-launcher
+399 verbose mapToRegistry uri https://registry.npmjs.org/karma-chrome-launcher
+400 silly cache add parsed spec { raw: 'karma-firefox-runner@latest',
+400 silly cache add   scope: null,
+400 silly cache add   name: 'karma-firefox-runner',
+400 silly cache add   rawSpec: 'latest',
+400 silly cache add   spec: 'latest',
+400 silly cache add   type: 'tag' }
+401 verbose addNamed karma-firefox-runner@latest
+402 verbose addNamed karma-firefox-runner@latest not in flight; adding
+403 silly addNamed semver.valid null
+404 silly addNamed semver.validRange null
+405 info addNameTag [ 'karma-firefox-runner', 'latest' ]
+406 verbose mapToRegistry name karma-firefox-runner
+407 verbose mapToRegistry uri https://registry.npmjs.org/karma-firefox-runner
+408 silly cache add parsed spec { raw: 'karma-ie-launcher@latest',
+408 silly cache add   scope: null,
+408 silly cache add   name: 'karma-ie-launcher',
+408 silly cache add   rawSpec: 'latest',
+408 silly cache add   spec: 'latest',
+408 silly cache add   type: 'tag' }
+409 verbose addNamed karma-ie-launcher@latest
+410 verbose addNamed karma-ie-launcher@latest not in flight; adding
+411 silly addNamed semver.valid null
+412 silly addNamed semver.validRange null
+413 info addNameTag [ 'karma-ie-launcher', 'latest' ]
+414 verbose mapToRegistry name karma-ie-launcher
+415 verbose mapToRegistry uri https://registry.npmjs.org/karma-ie-launcher
+416 silly cache add parsed spec { raw: 'karma-safari-launcher@latest',
+416 silly cache add   scope: null,
+416 silly cache add   name: 'karma-safari-launcher',
+416 silly cache add   rawSpec: 'latest',
+416 silly cache add   spec: 'latest',
+416 silly cache add   type: 'tag' }
+417 verbose addNamed karma-safari-launcher@latest
+418 verbose addNamed karma-safari-launcher@latest not in flight; adding
+419 silly addNamed semver.valid null
+420 silly addNamed semver.validRange null
+421 info addNameTag [ 'karma-safari-launcher', 'latest' ]
+422 verbose mapToRegistry name karma-safari-launcher
+423 verbose mapToRegistry uri https://registry.npmjs.org/karma-safari-launcher
+424 silly cache add parsed spec { raw: 'karma-opera-launcher@latest',
+424 silly cache add   scope: null,
+424 silly cache add   name: 'karma-opera-launcher',
+424 silly cache add   rawSpec: 'latest',
+424 silly cache add   spec: 'latest',
+424 silly cache add   type: 'tag' }
+425 verbose addNamed karma-opera-launcher@latest
+426 verbose addNamed karma-opera-launcher@latest not in flight; adding
+427 silly addNamed semver.valid null
+428 silly addNamed semver.validRange null
+429 info addNameTag [ 'karma-opera-launcher', 'latest' ]
+430 verbose mapToRegistry name karma-opera-launcher
+431 verbose mapToRegistry uri https://registry.npmjs.org/karma-opera-launcher
+432 silly cache add parsed spec { raw: 'should@latest',
+432 silly cache add   scope: null,
+432 silly cache add   name: 'should',
+432 silly cache add   rawSpec: 'latest',
+432 silly cache add   spec: 'latest',
+432 silly cache add   type: 'tag' }
+433 verbose addNamed should@latest
+434 verbose addNamed should@latest not in flight; adding
+435 silly addNamed semver.valid null
+436 silly addNamed semver.validRange null
+437 info addNameTag [ 'should', 'latest' ]
+438 verbose mapToRegistry name should
+439 verbose mapToRegistry uri https://registry.npmjs.org/should
+440 silly cache add parsed spec { raw: 'phantomjs@latest',
+440 silly cache add   scope: null,
+440 silly cache add   name: 'phantomjs',
+440 silly cache add   rawSpec: 'latest',
+440 silly cache add   spec: 'latest',
+440 silly cache add   type: 'tag' }
+441 verbose addNamed phantomjs@latest
+442 verbose addNamed phantomjs@latest not in flight; adding
+443 silly addNamed semver.valid null
+444 silly addNamed semver.validRange null
+445 info addNameTag [ 'phantomjs', 'latest' ]
+446 verbose mapToRegistry name phantomjs
+447 verbose mapToRegistry uri https://registry.npmjs.org/phantomjs
+448 silly cache add parsed spec { raw: 'supertest@latest',
+448 silly cache add   scope: null,
+448 silly cache add   name: 'supertest',
+448 silly cache add   rawSpec: 'latest',
+448 silly cache add   spec: 'latest',
+448 silly cache add   type: 'tag' }
+449 verbose addNamed supertest@latest
+450 verbose addNamed supertest@latest not in flight; adding
+451 silly addNamed semver.valid null
+452 silly addNamed semver.validRange null
+453 info addNameTag [ 'supertest', 'latest' ]
+454 verbose mapToRegistry name supertest
+455 verbose mapToRegistry uri https://registry.npmjs.org/supertest
+456 verbose request on initialization, where is /karma-jasmine-runner
+457 verbose request after pass 1, where is /karma-jasmine-runner
+458 verbose request url raw /karma-jasmine-runner
+459 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma-jasmine-runner' ]
+460 verbose request after pass 2, where is https://registry.npmjs.org/karma-jasmine-runner
+461 verbose request no auth needed
+462 info attempt registry request try #1 at 00:23:59
+463 verbose request id ebecf871734268f9
+464 http request GET https://registry.npmjs.org/karma-jasmine-runner
+465 verbose request on initialization, where is /karma-safari-launcher
+466 verbose request after pass 1, where is /karma-safari-launcher
+467 verbose request url raw /karma-safari-launcher
+468 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma-safari-launcher' ]
+469 verbose request after pass 2, where is https://registry.npmjs.org/karma-safari-launcher
+470 verbose request no auth needed
+471 info attempt registry request try #1 at 00:23:59
+472 http request GET https://registry.npmjs.org/karma-safari-launcher
+473 verbose request on initialization, where is /karma-ie-launcher
+474 verbose request after pass 1, where is /karma-ie-launcher
+475 verbose request url raw /karma-ie-launcher
+476 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma-ie-launcher' ]
+477 verbose request after pass 2, where is https://registry.npmjs.org/karma-ie-launcher
+478 verbose request no auth needed
+479 info attempt registry request try #1 at 00:23:59
+480 http request GET https://registry.npmjs.org/karma-ie-launcher
+481 verbose request on initialization, where is /grunt-newer
+482 verbose request after pass 1, where is /grunt-newer
+483 verbose request url raw /grunt-newer
+484 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-newer' ]
+485 verbose request after pass 2, where is https://registry.npmjs.org/grunt-newer
+486 verbose request no auth needed
+487 info attempt registry request try #1 at 00:23:59
+488 http request GET https://registry.npmjs.org/grunt-newer
+489 verbose request on initialization, where is /grunt-shell-spawn
+490 verbose request after pass 1, where is /grunt-shell-spawn
+491 verbose request url raw /grunt-shell-spawn
+492 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-shell-spawn' ]
+493 verbose request after pass 2, where is https://registry.npmjs.org/grunt-shell-spawn
+494 verbose request no auth needed
+495 info attempt registry request try #1 at 00:23:59
+496 http request GET https://registry.npmjs.org/grunt-shell-spawn
+497 verbose request on initialization, where is /passport-local
+498 verbose request after pass 1, where is /passport-local
+499 verbose request url raw /passport-local
+500 verbose request resolving registry [ 'https://registry.npmjs.org/', './passport-local' ]
+501 verbose request after pass 2, where is https://registry.npmjs.org/passport-local
+502 verbose request no auth needed
+503 info attempt registry request try #1 at 00:23:59
+504 http request GET https://registry.npmjs.org/passport-local
+505 verbose request on initialization, where is /passport
+506 verbose request after pass 1, where is /passport
+507 verbose request url raw /passport
+508 verbose request resolving registry [ 'https://registry.npmjs.org/', './passport' ]
+509 verbose request after pass 2, where is https://registry.npmjs.org/passport
+510 verbose request no auth needed
+511 info attempt registry request try #1 at 00:23:59
+512 http request GET https://registry.npmjs.org/passport
+513 verbose request on initialization, where is /helmet
+514 verbose request after pass 1, where is /helmet
+515 verbose request url raw /helmet
+516 verbose request resolving registry [ 'https://registry.npmjs.org/', './helmet' ]
+517 verbose request after pass 2, where is https://registry.npmjs.org/helmet
+518 verbose request no auth needed
+519 info attempt registry request try #1 at 00:23:59
+520 http request GET https://registry.npmjs.org/helmet
+521 verbose request on initialization, where is /compression
+522 verbose request after pass 1, where is /compression
+523 verbose request url raw /compression
+524 verbose request resolving registry [ 'https://registry.npmjs.org/', './compression' ]
+525 verbose request after pass 2, where is https://registry.npmjs.org/compression
+526 verbose request no auth needed
+527 info attempt registry request try #1 at 00:23:59
+528 http request GET https://registry.npmjs.org/compression
+529 verbose request on initialization, where is /cookie-parser
+530 verbose request after pass 1, where is /cookie-parser
+531 verbose request url raw /cookie-parser
+532 verbose request resolving registry [ 'https://registry.npmjs.org/', './cookie-parser' ]
+533 verbose request after pass 2, where is https://registry.npmjs.org/cookie-parser
+534 verbose request no auth needed
+535 info attempt registry request try #1 at 00:23:59
+536 http request GET https://registry.npmjs.org/cookie-parser
+537 verbose request on initialization, where is /should
+538 verbose request after pass 1, where is /should
+539 verbose request url raw /should
+540 verbose request resolving registry [ 'https://registry.npmjs.org/', './should' ]
+541 verbose request after pass 2, where is https://registry.npmjs.org/should
+542 verbose request no auth needed
+543 info attempt registry request try #1 at 00:23:59
+544 http request GET https://registry.npmjs.org/should
+545 verbose request on initialization, where is /load-config-grunt
+546 verbose request after pass 1, where is /load-config-grunt
+547 verbose request url raw /load-config-grunt
+548 verbose request resolving registry [ 'https://registry.npmjs.org/', './load-config-grunt' ]
+549 verbose request after pass 2, where is https://registry.npmjs.org/load-config-grunt
+550 verbose request no auth needed
+551 info attempt registry request try #1 at 00:23:59
+552 http request GET https://registry.npmjs.org/load-config-grunt
+553 verbose request on initialization, where is /grunt-buster
+554 verbose request after pass 1, where is /grunt-buster
+555 verbose request url raw /grunt-buster
+556 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-buster' ]
+557 verbose request after pass 2, where is https://registry.npmjs.org/grunt-buster
+558 verbose request no auth needed
+559 info attempt registry request try #1 at 00:23:59
+560 http request GET https://registry.npmjs.org/grunt-buster
+561 verbose request on initialization, where is /grunt-contrib-qunit
+562 verbose request after pass 1, where is /grunt-contrib-qunit
+563 verbose request url raw /grunt-contrib-qunit
+564 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-qunit' ]
+565 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-qunit
+566 verbose request no auth needed
+567 info attempt registry request try #1 at 00:23:59
+568 http request GET https://registry.npmjs.org/grunt-contrib-qunit
+569 verbose request on initialization, where is /grunt-karma
+570 verbose request after pass 1, where is /grunt-karma
+571 verbose request url raw /grunt-karma
+572 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-karma' ]
+573 verbose request after pass 2, where is https://registry.npmjs.org/grunt-karma
+574 verbose request no auth needed
+575 info attempt registry request try #1 at 00:23:59
+576 http request GET https://registry.npmjs.org/grunt-karma
+577 verbose request on initialization, where is /grunt-express
+578 verbose request after pass 1, where is /grunt-express
+579 verbose request url raw /grunt-express
+580 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-express' ]
+581 verbose request after pass 2, where is https://registry.npmjs.org/grunt-express
+582 verbose request no auth needed
+583 info attempt registry request try #1 at 00:23:59
+584 http request GET https://registry.npmjs.org/grunt-express
+585 verbose request on initialization, where is /grunt-env
+586 verbose request after pass 1, where is /grunt-env
+587 verbose request url raw /grunt-env
+588 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-env' ]
+589 verbose request after pass 2, where is https://registry.npmjs.org/grunt-env
+590 verbose request no auth needed
+591 info attempt registry request try #1 at 00:23:59
+592 http request GET https://registry.npmjs.org/grunt-env
+593 verbose request on initialization, where is /grunt-concurrent
+594 verbose request after pass 1, where is /grunt-concurrent
+595 verbose request url raw /grunt-concurrent
+596 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-concurrent' ]
+597 verbose request after pass 2, where is https://registry.npmjs.org/grunt-concurrent
+598 verbose request no auth needed
+599 info attempt registry request try #1 at 00:23:59
+600 http request GET https://registry.npmjs.org/grunt-concurrent
+601 verbose request on initialization, where is /grunt-contrib-coffee
+602 verbose request after pass 1, where is /grunt-contrib-coffee
+603 verbose request url raw /grunt-contrib-coffee
+604 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-coffee' ]
+605 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-coffee
+606 verbose request no auth needed
+607 info attempt registry request try #1 at 00:23:59
+608 http request GET https://registry.npmjs.org/grunt-contrib-coffee
+609 verbose request on initialization, where is /karma-firefox-runner
+610 verbose request after pass 1, where is /karma-firefox-runner
+611 verbose request url raw /karma-firefox-runner
+612 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma-firefox-runner' ]
+613 verbose request after pass 2, where is https://registry.npmjs.org/karma-firefox-runner
+614 verbose request no auth needed
+615 info attempt registry request try #1 at 00:23:59
+616 http request GET https://registry.npmjs.org/karma-firefox-runner
+617 verbose request on initialization, where is /grunt-contrib-sass
+618 verbose request after pass 1, where is /grunt-contrib-sass
+619 verbose request url raw /grunt-contrib-sass
+620 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-sass' ]
+621 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-sass
+622 verbose request no auth needed
+623 info attempt registry request try #1 at 00:23:59
+624 http request GET https://registry.npmjs.org/grunt-contrib-sass
+625 verbose request on initialization, where is /grunt-contrib-coffeelint
+626 verbose request after pass 1, where is /grunt-contrib-coffeelint
+627 verbose request url raw /grunt-contrib-coffeelint
+628 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-coffeelint' ]
+629 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-coffeelint
+630 verbose request no auth needed
+631 info attempt registry request try #1 at 00:23:59
+632 http request GET https://registry.npmjs.org/grunt-contrib-coffeelint
+633 verbose request on initialization, where is /grunt-contrib-csslint
+634 verbose request after pass 1, where is /grunt-contrib-csslint
+635 verbose request url raw /grunt-contrib-csslint
+636 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-csslint' ]
+637 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-csslint
+638 verbose request no auth needed
+639 info attempt registry request try #1 at 00:23:59
+640 http request GET https://registry.npmjs.org/grunt-contrib-csslint
+641 verbose request on initialization, where is /grunt-contrib-cssmin
+642 verbose request after pass 1, where is /grunt-contrib-cssmin
+643 verbose request url raw /grunt-contrib-cssmin
+644 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-cssmin' ]
+645 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-cssmin
+646 verbose request no auth needed
+647 info attempt registry request try #1 at 00:23:59
+648 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+649 verbose request on initialization, where is /vhost
+650 verbose request after pass 1, where is /vhost
+651 verbose request url raw /vhost
+652 verbose request resolving registry [ 'https://registry.npmjs.org/', './vhost' ]
+653 verbose request after pass 2, where is https://registry.npmjs.org/vhost
+654 verbose request no auth needed
+655 info attempt registry request try #1 at 00:23:59
+656 http request GET https://registry.npmjs.org/vhost
+657 verbose request on initialization, where is /body-parser
+658 verbose request after pass 1, where is /body-parser
+659 verbose request url raw /body-parser
+660 verbose request resolving registry [ 'https://registry.npmjs.org/', './body-parser' ]
+661 verbose request after pass 2, where is https://registry.npmjs.org/body-parser
+662 verbose request no auth needed
+663 info attempt registry request try #1 at 00:23:59
+664 http request GET https://registry.npmjs.org/body-parser
+665 verbose request on initialization, where is /karma-opera-launcher
+666 verbose request after pass 1, where is /karma-opera-launcher
+667 verbose request url raw /karma-opera-launcher
+668 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma-opera-launcher' ]
+669 verbose request after pass 2, where is https://registry.npmjs.org/karma-opera-launcher
+670 verbose request no auth needed
+671 info attempt registry request try #1 at 00:23:59
+672 http request GET https://registry.npmjs.org/karma-opera-launcher
+673 verbose request on initialization, where is /method-override
+674 verbose request after pass 1, where is /method-override
+675 verbose request url raw /method-override
+676 verbose request resolving registry [ 'https://registry.npmjs.org/', './method-override' ]
+677 verbose request after pass 2, where is https://registry.npmjs.org/method-override
+678 verbose request no auth needed
+679 info attempt registry request try #1 at 00:23:59
+680 http request GET https://registry.npmjs.org/method-override
+681 verbose request on initialization, where is /karma-chrome-launcher
+682 verbose request after pass 1, where is /karma-chrome-launcher
+683 verbose request url raw /karma-chrome-launcher
+684 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
+685 verbose request after pass 2, where is https://registry.npmjs.org/karma-chrome-launcher
+686 verbose request no auth needed
+687 info attempt registry request try #1 at 00:23:59
+688 http request GET https://registry.npmjs.org/karma-chrome-launcher
+689 verbose request on initialization, where is /supertest
+690 verbose request after pass 1, where is /supertest
+691 verbose request url raw /supertest
+692 verbose request resolving registry [ 'https://registry.npmjs.org/', './supertest' ]
+693 verbose request after pass 2, where is https://registry.npmjs.org/supertest
+694 verbose request no auth needed
+695 info attempt registry request try #1 at 00:23:59
+696 http request GET https://registry.npmjs.org/supertest
+697 verbose request on initialization, where is /grunt-contrib-jasmine
+698 verbose request after pass 1, where is /grunt-contrib-jasmine
+699 verbose request url raw /grunt-contrib-jasmine
+700 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-jasmine' ]
+701 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-jasmine
+702 verbose request no auth needed
+703 info attempt registry request try #1 at 00:23:59
+704 http request GET https://registry.npmjs.org/grunt-contrib-jasmine
+705 verbose request on initialization, where is /grunt-contrib-watch
+706 verbose request after pass 1, where is /grunt-contrib-watch
+707 verbose request url raw /grunt-contrib-watch
+708 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-watch' ]
+709 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-watch
+710 verbose request no auth needed
+711 info attempt registry request try #1 at 00:23:59
+712 http request GET https://registry.npmjs.org/grunt-contrib-watch
+713 verbose request on initialization, where is /grunt-contrib-jshint
+714 verbose request after pass 1, where is /grunt-contrib-jshint
+715 verbose request url raw /grunt-contrib-jshint
+716 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+717 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-jshint
+718 verbose request no auth needed
+719 info attempt registry request try #1 at 00:23:59
+720 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+721 verbose request on initialization, where is /time-grunt
+722 verbose request after pass 1, where is /time-grunt
+723 verbose request url raw /time-grunt
+724 verbose request resolving registry [ 'https://registry.npmjs.org/', './time-grunt' ]
+725 verbose request after pass 2, where is https://registry.npmjs.org/time-grunt
+726 verbose request no auth needed
+727 info attempt registry request try #1 at 00:23:59
+728 http request GET https://registry.npmjs.org/time-grunt
+729 verbose request on initialization, where is /connect-flash
+730 verbose request after pass 1, where is /connect-flash
+731 verbose request url raw /connect-flash
+732 verbose request resolving registry [ 'https://registry.npmjs.org/', './connect-flash' ]
+733 verbose request after pass 2, where is https://registry.npmjs.org/connect-flash
+734 verbose request no auth needed
+735 info attempt registry request try #1 at 00:23:59
+736 http request GET https://registry.npmjs.org/connect-flash
+737 verbose request on initialization, where is /morgan
+738 verbose request after pass 1, where is /morgan
+739 verbose request url raw /morgan
+740 verbose request resolving registry [ 'https://registry.npmjs.org/', './morgan' ]
+741 verbose request after pass 2, where is https://registry.npmjs.org/morgan
+742 verbose request no auth needed
+743 info attempt registry request try #1 at 00:23:59
+744 http request GET https://registry.npmjs.org/morgan
+745 verbose request on initialization, where is /grunt-contrib-uglify
+746 verbose request after pass 1, where is /grunt-contrib-uglify
+747 verbose request url raw /grunt-contrib-uglify
+748 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+749 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-uglify
+750 verbose request no auth needed
+751 info attempt registry request try #1 at 00:23:59
+752 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+753 verbose request on initialization, where is /jasmine
+754 verbose request after pass 1, where is /jasmine
+755 verbose request url raw /jasmine
+756 verbose request resolving registry [ 'https://registry.npmjs.org/', './jasmine' ]
+757 verbose request after pass 2, where is https://registry.npmjs.org/jasmine
+758 verbose request no auth needed
+759 info attempt registry request try #1 at 00:23:59
+760 verbose etag "9DWBDJTK4IYJTR378RDA1IZHC"
+761 http request GET https://registry.npmjs.org/jasmine
+762 verbose request on initialization, where is /qunit
+763 verbose request after pass 1, where is /qunit
+764 verbose request url raw /qunit
+765 verbose request resolving registry [ 'https://registry.npmjs.org/', './qunit' ]
+766 verbose request after pass 2, where is https://registry.npmjs.org/qunit
+767 verbose request no auth needed
+768 info attempt registry request try #1 at 00:23:59
+769 verbose etag "9BIC4PLSTKKIIO3F2J07BQZ0O"
+770 http request GET https://registry.npmjs.org/qunit
+771 verbose request on initialization, where is /bower
+772 verbose request after pass 1, where is /bower
+773 verbose request url raw /bower
+774 verbose request resolving registry [ 'https://registry.npmjs.org/', './bower' ]
+775 verbose request after pass 2, where is https://registry.npmjs.org/bower
+776 verbose request no auth needed
+777 info attempt registry request try #1 at 00:23:59
+778 verbose etag "BNEPXH85JRVX0PTJ3Z7BEQ39Y"
+779 http request GET https://registry.npmjs.org/bower
+780 verbose request on initialization, where is /express
+781 verbose request after pass 1, where is /express
+782 verbose request url raw /express
+783 verbose request resolving registry [ 'https://registry.npmjs.org/', './express' ]
+784 verbose request after pass 2, where is https://registry.npmjs.org/express
+785 verbose request no auth needed
+786 info attempt registry request try #1 at 00:23:59
+787 verbose etag "7FVLRT9Y9RQJKGVQC7099FKQ4"
+788 http request GET https://registry.npmjs.org/express
+789 verbose request on initialization, where is /karma
+790 verbose request after pass 1, where is /karma
+791 verbose request url raw /karma
+792 verbose request resolving registry [ 'https://registry.npmjs.org/', './karma' ]
+793 verbose request after pass 2, where is https://registry.npmjs.org/karma
+794 verbose request no auth needed
+795 info attempt registry request try #1 at 00:23:59
+796 verbose etag "3Z5NA2ZQ8SZFNJFK9GK275JF9"
+797 http request GET https://registry.npmjs.org/karma
+798 verbose request on initialization, where is /grunt
+799 verbose request after pass 1, where is /grunt
+800 verbose request url raw /grunt
+801 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt' ]
+802 verbose request after pass 2, where is https://registry.npmjs.org/grunt
+803 verbose request no auth needed
+804 info attempt registry request try #1 at 00:23:59
+805 verbose etag "EI567EVZAI0PSW2BVN7EKU038"
+806 http request GET https://registry.npmjs.org/grunt
+807 verbose request on initialization, where is /phantomjs
+808 verbose request after pass 1, where is /phantomjs
+809 verbose request url raw /phantomjs
+810 verbose request resolving registry [ 'https://registry.npmjs.org/', './phantomjs' ]
+811 verbose request after pass 2, where is https://registry.npmjs.org/phantomjs
+812 verbose request no auth needed
+813 info attempt registry request try #1 at 00:23:59
+814 verbose etag "80ZNOFJA1DO3IKMLJB82RRBHZ"
+815 http request GET https://registry.npmjs.org/phantomjs
+816 verbose request on initialization, where is /buster
+817 verbose request after pass 1, where is /buster
+818 verbose request url raw /buster
+819 verbose request resolving registry [ 'https://registry.npmjs.org/', './buster' ]
+820 verbose request after pass 2, where is https://registry.npmjs.org/buster
+821 verbose request no auth needed
+822 info attempt registry request try #1 at 00:23:59
+823 verbose etag "5X7X8BPLV8FV8ELM9JXBUM4DF"
+824 http request GET https://registry.npmjs.org/buster
+825 http 200 https://registry.npmjs.org/karma-safari-launcher
+826 silly registry.get cb [ 200,
+826 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+826 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+826 silly registry.get     etag: '"DPRFYL5G6DABIDDSZZFTQADZI"',
+826 silly registry.get     'content-type': 'application/json',
+826 silly registry.get     'cache-control': 'max-age=60',
+826 silly registry.get     'content-length': '8473',
+826 silly registry.get     'accept-ranges': 'bytes',
+826 silly registry.get     via: '1.1 varnish',
+826 silly registry.get     age: '5491',
+826 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+826 silly registry.get     'x-cache': 'MISS',
+826 silly registry.get     'x-cache-hits': '0',
+826 silly registry.get     'x-timer': 'S1413087838.147096,VS0,VE72',
+826 silly registry.get     vary: 'Accept',
+826 silly registry.get     'keep-alive': 'timeout=10, max=50',
+826 silly registry.get     connection: 'Keep-Alive' } ]
+827 verbose addNamed karma-safari-launcher@0.1.1
+828 verbose addNamed karma-safari-launcher@0.1.1 not in flight; adding
+829 silly addNamed semver.valid 0.1.1
+830 silly addNamed semver.validRange 0.1.1
+831 http 200 https://registry.npmjs.org/passport-local
+832 silly registry.get cb [ 200,
+832 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+832 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+832 silly registry.get     etag: '"78J7YU7NXFKXVZ1IC7IY9990M"',
+832 silly registry.get     'content-type': 'application/json',
+832 silly registry.get     'cache-control': 'max-age=60',
+832 silly registry.get     'content-length': '13462',
+832 silly registry.get     'accept-ranges': 'bytes',
+832 silly registry.get     via: '1.1 varnish',
+832 silly registry.get     age: '60',
+832 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+832 silly registry.get     'x-cache': 'HIT',
+832 silly registry.get     'x-cache-hits': '2',
+832 silly registry.get     'x-timer': 'S1413087838.258956,VS0,VE0',
+832 silly registry.get     vary: 'Accept',
+832 silly registry.get     'keep-alive': 'timeout=10, max=49',
+832 silly registry.get     connection: 'Keep-Alive' } ]
+833 http 200 https://registry.npmjs.org/grunt-newer
+834 silly registry.get cb [ 200,
+834 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+834 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+834 silly registry.get     etag: '"6OKMAD6SG8IQXUV4ZZYOQF21V"',
+834 silly registry.get     'content-type': 'application/json',
+834 silly registry.get     'cache-control': 'max-age=60',
+834 silly registry.get     'content-length': '26057',
+834 silly registry.get     'accept-ranges': 'bytes',
+834 silly registry.get     via: '1.1 varnish',
+834 silly registry.get     age: '1833',
+834 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+834 silly registry.get     'x-cache': 'HIT',
+834 silly registry.get     'x-cache-hits': '1',
+834 silly registry.get     'x-timer': 'S1413087838.148892,VS0,VE84',
+834 silly registry.get     vary: 'Accept',
+834 silly registry.get     'keep-alive': 'timeout=10, max=50',
+834 silly registry.get     connection: 'Keep-Alive' } ]
+835 verbose addRemoteTarball https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz not in flight; adding
+836 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz',
+836 verbose addRemoteTarball   'a6380accab60a583fdd624f41b9a3f10fdf41008' ]
+837 verbose addNamed passport-local@1.0.0
+838 verbose addNamed passport-local@1.0.0 not in flight; adding
+839 silly addNamed semver.valid 1.0.0
+840 silly addNamed semver.validRange 1.0.0
+841 verbose addRemoteTarball https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz not in flight; adding
+842 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz',
+842 verbose addRemoteTarball   '1fe63268c92e75606626437e3b906662c15ba6ee' ]
+843 http 200 https://registry.npmjs.org/passport
+844 silly registry.get cb [ 200,
+844 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+844 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+844 silly registry.get     etag: '"9FJ7XKEWQVOKF88TCU2K0GZCN"',
+844 silly registry.get     'content-type': 'application/json',
+844 silly registry.get     'cache-control': 'max-age=60',
+844 silly registry.get     'content-length': '33584',
+844 silly registry.get     'accept-ranges': 'bytes',
+844 silly registry.get     via: '1.1 varnish',
+844 silly registry.get     age: '1066',
+844 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+844 silly registry.get     'x-cache': 'HIT',
+844 silly registry.get     'x-cache-hits': '1',
+844 silly registry.get     'x-timer': 'S1413087838.306991,VS0,VE0',
+844 silly registry.get     vary: 'Accept',
+844 silly registry.get     'keep-alive': 'timeout=10, max=48',
+844 silly registry.get     connection: 'Keep-Alive' } ]
+845 http 404 https://registry.npmjs.org/karma-jasmine-runner
+846 verbose headers { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+846 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+846 verbose headers   'content-type': 'application/json',
+846 verbose headers   'cache-control': 'max-age=0',
+846 verbose headers   'content-length': '52',
+846 verbose headers   'accept-ranges': 'bytes',
+846 verbose headers   via: '1.1 varnish',
+846 verbose headers   age: '0',
+846 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+846 verbose headers   'x-cache': 'MISS',
+846 verbose headers   'x-cache-hits': '0',
+846 verbose headers   'x-timer': 'S1413087838.142367,VS0,VE357',
+846 verbose headers   'keep-alive': 'timeout=10, max=50',
+846 verbose headers   connection: 'Keep-Alive' }
+847 silly registry.get cb [ 404,
+847 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+847 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+847 silly registry.get     'content-type': 'application/json',
+847 silly registry.get     'cache-control': 'max-age=0',
+847 silly registry.get     'content-length': '52',
+847 silly registry.get     'accept-ranges': 'bytes',
+847 silly registry.get     via: '1.1 varnish',
+847 silly registry.get     age: '0',
+847 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+847 silly registry.get     'x-cache': 'MISS',
+847 silly registry.get     'x-cache-hits': '0',
+847 silly registry.get     'x-timer': 'S1413087838.142367,VS0,VE357',
+847 silly registry.get     'keep-alive': 'timeout=10, max=50',
+847 silly registry.get     connection: 'Keep-Alive' } ]
+848 http 200 https://registry.npmjs.org/karma-ie-launcher
+849 silly registry.get cb [ 200,
+849 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+849 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+849 silly registry.get     etag: '"7LO2LOIQSNVDV3O492X7AF0GZ"',
+849 silly registry.get     'content-type': 'application/json',
+849 silly registry.get     'cache-control': 'max-age=60',
+849 silly registry.get     'content-length': '9569',
+849 silly registry.get     'accept-ranges': 'bytes',
+849 silly registry.get     via: '1.1 varnish',
+849 silly registry.get     age: '0',
+849 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+849 silly registry.get     'x-cache': 'HIT',
+849 silly registry.get     'x-cache-hits': '1',
+849 silly registry.get     'x-timer': 'S1413087838.139498,VS0,VE345',
+849 silly registry.get     vary: 'Accept',
+849 silly registry.get     'keep-alive': 'timeout=10, max=50',
+849 silly registry.get     connection: 'Keep-Alive' } ]
+850 info retry fetch attempt 1 at 00:23:59
+851 info attempt registry request try #1 at 00:23:59
+852 http fetch GET https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+853 info retry fetch attempt 1 at 00:23:59
+854 info attempt registry request try #1 at 00:23:59
+855 http fetch GET https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz
+856 http 200 https://registry.npmjs.org/compression
+857 silly registry.get cb [ 200,
+857 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+857 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+857 silly registry.get     etag: '"9CGVYB4RRGV5RNRXINEHDKYRO"',
+857 silly registry.get     'content-type': 'application/json',
+857 silly registry.get     'cache-control': 'max-age=60',
+857 silly registry.get     'content-length': '26034',
+857 silly registry.get     'accept-ranges': 'bytes',
+857 silly registry.get     via: '1.1 varnish',
+857 silly registry.get     age: '0',
+857 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+857 silly registry.get     'x-cache': 'HIT',
+857 silly registry.get     'x-cache-hits': '1',
+857 silly registry.get     'x-timer': 'S1413087838.433609,VS0,VE79',
+857 silly registry.get     vary: 'Accept',
+857 silly registry.get     'keep-alive': 'timeout=10, max=47',
+857 silly registry.get     connection: 'Keep-Alive' } ]
+858 http 200 https://registry.npmjs.org/helmet
+859 silly registry.get cb [ 200,
+859 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+859 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+859 silly registry.get     etag: '"34891DOGZGY6PM1LJQ7E5D8F8"',
+859 silly registry.get     'content-type': 'application/json',
+859 silly registry.get     'cache-control': 'max-age=60',
+859 silly registry.get     'content-length': '41089',
+859 silly registry.get     'accept-ranges': 'bytes',
+859 silly registry.get     via: '1.1 varnish',
+859 silly registry.get     age: '11930',
+859 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+859 silly registry.get     'x-cache': 'HIT',
+859 silly registry.get     'x-cache-hits': '1',
+859 silly registry.get     'x-timer': 'S1413087838.312501,VS0,VE13',
+859 silly registry.get     vary: 'Accept',
+859 silly registry.get     'keep-alive': 'timeout=10, max=49',
+859 silly registry.get     connection: 'Keep-Alive' } ]
+860 verbose addNamed passport@0.2.1
+861 verbose addNamed passport@0.2.1 not in flight; adding
+862 silly addNamed semver.valid 0.2.1
+863 silly addNamed semver.validRange 0.2.1
+864 verbose addNamed grunt-newer@0.7.0
+865 verbose addNamed grunt-newer@0.7.0 not in flight; adding
+866 silly addNamed semver.valid 0.7.0
+867 silly addNamed semver.validRange 0.7.0
+868 verbose addRemoteTarball https://registry.npmjs.org/passport/-/passport-0.2.1.tgz not in flight; adding
+869 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport/-/passport-0.2.1.tgz',
+869 verbose addRemoteTarball   'a7d34c07b30fb605be885edbc8c93e5142e38574' ]
+870 verbose addRemoteTarball https://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz not in flight; adding
+871 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz',
+871 verbose addRemoteTarball   '376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e' ]
+872 verbose addNamed karma-ie-launcher@0.1.5
+873 verbose addNamed karma-ie-launcher@0.1.5 not in flight; adding
+874 silly addNamed semver.valid 0.1.5
+875 silly addNamed semver.validRange 0.1.5
+876 verbose addRemoteTarball https://registry.npmjs.org/karma-ie-launcher/-/karma-ie-launcher-0.1.5.tgz not in flight; adding
+877 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-ie-launcher/-/karma-ie-launcher-0.1.5.tgz',
+877 verbose addRemoteTarball   'ee43bd238f61c45dd8fbc1694b13a50dfb5a3e1b' ]
+878 info retry fetch attempt 1 at 00:24:00
+879 info attempt registry request try #1 at 00:24:00
+880 http fetch GET https://registry.npmjs.org/passport/-/passport-0.2.1.tgz
+881 info retry fetch attempt 1 at 00:24:00
+882 info attempt registry request try #1 at 00:24:00
+883 http fetch GET https://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz
+884 http 200 https://registry.npmjs.org/should
+885 silly registry.get cb [ 200,
+885 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+885 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+885 silly registry.get     etag: '"9D81VPB8RJICUWARP37VAPCFA"',
+885 silly registry.get     'content-type': 'application/json',
+885 silly registry.get     'cache-control': 'max-age=60',
+885 silly registry.get     'content-length': '67745',
+885 silly registry.get     'accept-ranges': 'bytes',
+885 silly registry.get     via: '1.1 varnish',
+885 silly registry.get     age: '1421',
+885 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+885 silly registry.get     'x-cache': 'HIT',
+885 silly registry.get     'x-cache-hits': '1',
+885 silly registry.get     'x-timer': 'S1413087838.545616,VS0,VE0',
+885 silly registry.get     vary: 'Accept',
+885 silly registry.get     'keep-alive': 'timeout=10, max=49',
+885 silly registry.get     connection: 'Keep-Alive' } ]
+886 http 200 https://registry.npmjs.org/grunt-shell-spawn
+887 silly registry.get cb [ 200,
+887 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+887 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+887 silly registry.get     etag: '"1XOX3JYA3UT7FG1Q68MQMW878"',
+887 silly registry.get     'content-type': 'application/json',
+887 silly registry.get     'cache-control': 'max-age=60',
+887 silly registry.get     'content-length': '27655',
+887 silly registry.get     'accept-ranges': 'bytes',
+887 silly registry.get     via: '1.1 varnish',
+887 silly registry.get     age: '0',
+887 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+887 silly registry.get     'x-cache': 'MISS',
+887 silly registry.get     'x-cache-hits': '0',
+887 silly registry.get     'x-timer': 'S1413087838.131978,VS0,VE437',
+887 silly registry.get     vary: 'Accept',
+887 silly registry.get     'keep-alive': 'timeout=10, max=50',
+887 silly registry.get     connection: 'Keep-Alive' } ]
+888 verbose addNamed helmet@0.4.1
+889 verbose addNamed helmet@0.4.1 not in flight; adding
+890 silly addNamed semver.valid 0.4.1
+891 silly addNamed semver.validRange 0.4.1
+892 verbose addRemoteTarball https://registry.npmjs.org/helmet/-/helmet-0.4.1.tgz not in flight; adding
+893 verbose addRemoteTarball [ 'https://registry.npmjs.org/helmet/-/helmet-0.4.1.tgz',
+893 verbose addRemoteTarball   '5f2fe259ba3352f0c00c18f48555612d851cc783' ]
+894 info retry fetch attempt 1 at 00:24:00
+895 info attempt registry request try #1 at 00:24:00
+896 http fetch GET https://registry.npmjs.org/karma-ie-launcher/-/karma-ie-launcher-0.1.5.tgz
+897 info retry fetch attempt 1 at 00:24:00
+898 info attempt registry request try #1 at 00:24:00
+899 http fetch GET https://registry.npmjs.org/helmet/-/helmet-0.4.1.tgz
+900 verbose addNamed compression@1.1.0
+901 verbose addNamed compression@1.1.0 not in flight; adding
+902 silly addNamed semver.valid 1.1.0
+903 silly addNamed semver.validRange 1.1.0
+904 verbose addRemoteTarball https://registry.npmjs.org/compression/-/compression-1.1.0.tgz not in flight; adding
+905 verbose addRemoteTarball [ 'https://registry.npmjs.org/compression/-/compression-1.1.0.tgz',
+905 verbose addRemoteTarball   '58243eded272fc531d7c744d8e8daa7cc0b99215' ]
+906 info retry fetch attempt 1 at 00:24:00
+907 info attempt registry request try #1 at 00:24:00
+908 http fetch GET https://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+909 verbose addNamed grunt-shell-spawn@0.3.0
+910 verbose addNamed grunt-shell-spawn@0.3.0 not in flight; adding
+911 silly addNamed semver.valid 0.3.0
+912 silly addNamed semver.validRange 0.3.0
+913 verbose addRemoteTarball https://registry.npmjs.org/grunt-shell-spawn/-/grunt-shell-spawn-0.3.0.tgz not in flight; adding
+914 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-shell-spawn/-/grunt-shell-spawn-0.3.0.tgz',
+914 verbose addRemoteTarball   'aca2963130230b146c96081afa47f6b69546155d' ]
+915 verbose addNamed should@4.0.4
+916 verbose addNamed should@4.0.4 not in flight; adding
+917 silly addNamed semver.valid 4.0.4
+918 silly addNamed semver.validRange 4.0.4
+919 verbose addRemoteTarball https://registry.npmjs.org/should/-/should-4.0.4.tgz not in flight; adding
+920 verbose addRemoteTarball [ 'https://registry.npmjs.org/should/-/should-4.0.4.tgz',
+920 verbose addRemoteTarball   '8efaa304f1f148cf3d2e955862990f9ab9ea628f' ]
+921 http 200 https://registry.npmjs.org/grunt-contrib-qunit
+922 silly registry.get cb [ 200,
+922 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+922 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+922 silly registry.get     etag: '"2LUYHQ4BHIFIFIWIGWB86OQ72"',
+922 silly registry.get     'content-type': 'application/json',
+922 silly registry.get     'cache-control': 'max-age=60',
+922 silly registry.get     'content-length': '30135',
+922 silly registry.get     'accept-ranges': 'bytes',
+922 silly registry.get     via: '1.1 varnish',
+922 silly registry.get     age: '946',
+922 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+922 silly registry.get     'x-cache': 'HIT',
+922 silly registry.get     'x-cache-hits': '1',
+922 silly registry.get     'x-timer': 'S1413087838.646049,VS0,VE0',
+922 silly registry.get     vary: 'Accept',
+922 silly registry.get     'keep-alive': 'timeout=10, max=48',
+922 silly registry.get     connection: 'Keep-Alive' } ]
+923 info retry fetch attempt 1 at 00:24:00
+924 info attempt registry request try #1 at 00:24:00
+925 http fetch GET https://registry.npmjs.org/grunt-shell-spawn/-/grunt-shell-spawn-0.3.0.tgz
+926 info retry fetch attempt 1 at 00:24:00
+927 info attempt registry request try #1 at 00:24:00
+928 http fetch GET https://registry.npmjs.org/should/-/should-4.0.4.tgz
+929 verbose addNamed grunt-contrib-qunit@0.5.2
+930 verbose addNamed grunt-contrib-qunit@0.5.2 not in flight; adding
+931 silly addNamed semver.valid 0.5.2
+932 silly addNamed semver.validRange 0.5.2
+933 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-qunit/-/grunt-contrib-qunit-0.5.2.tgz not in flight; adding
+934 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-qunit/-/grunt-contrib-qunit-0.5.2.tgz',
+934 verbose addRemoteTarball   '34375497e911c10458494c0645e2cdd99a0bc05a' ]
+935 info retry fetch attempt 1 at 00:24:00
+936 info attempt registry request try #1 at 00:24:00
+937 http fetch GET https://registry.npmjs.org/grunt-contrib-qunit/-/grunt-contrib-qunit-0.5.2.tgz
+938 http 200 https://registry.npmjs.org/grunt-express
+939 silly registry.get cb [ 200,
+939 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+939 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+939 silly registry.get     etag: '"29JVUAOF0VG7O6SKNSYUP2EGZ"',
+939 silly registry.get     'content-type': 'application/json',
+939 silly registry.get     'cache-control': 'max-age=60',
+939 silly registry.get     'content-length': '61921',
+939 silly registry.get     'accept-ranges': 'bytes',
+939 silly registry.get     via: '1.1 varnish',
+939 silly registry.get     age: '2421',
+939 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+939 silly registry.get     'x-cache': 'MISS',
+939 silly registry.get     'x-cache-hits': '0',
+939 silly registry.get     'x-timer': 'S1413087838.713659,VS0,VE14',
+939 silly registry.get     vary: 'Accept',
+939 silly registry.get     'keep-alive': 'timeout=10, max=47',
+939 silly registry.get     connection: 'Keep-Alive' } ]
+940 verbose addNamed grunt-express@1.4.1
+941 verbose addNamed grunt-express@1.4.1 not in flight; adding
+942 silly addNamed semver.valid 1.4.1
+943 silly addNamed semver.validRange 1.4.1
+944 verbose addRemoteTarball https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz not in flight; adding
+945 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz',
+945 verbose addRemoteTarball   '8ffe081ad3a47de0cea0d1e4f1565ce453edc61e' ]
+946 info retry fetch attempt 1 at 00:24:00
+947 info attempt registry request try #1 at 00:24:00
+948 http fetch GET https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+949 http 200 https://registry.npmjs.org/cookie-parser
+950 silly registry.get cb [ 200,
+950 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+950 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+950 silly registry.get     etag: '"D2I21Z55J0M83YHA636O1DW9K"',
+950 silly registry.get     'content-type': 'application/json',
+950 silly registry.get     'cache-control': 'max-age=60',
+950 silly registry.get     'content-length': '14080',
+950 silly registry.get     'accept-ranges': 'bytes',
+950 silly registry.get     via: '1.1 varnish',
+950 silly registry.get     age: '0',
+950 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+950 silly registry.get     'x-cache': 'HIT',
+950 silly registry.get     'x-cache-hits': '1',
+950 silly registry.get     'x-timer': 'S1413087838.522428,VS0,VE348',
+950 silly registry.get     vary: 'Accept',
+950 silly registry.get     'keep-alive': 'timeout=10, max=49',
+950 silly registry.get     connection: 'Keep-Alive' } ]
+951 http 200 https://registry.npmjs.org/grunt-env
+952 silly registry.get cb [ 200,
+952 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+952 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+952 silly registry.get     etag: '"AVEOE22BF5C7AFMM4EBFU0LT"',
+952 silly registry.get     'content-type': 'application/json',
+952 silly registry.get     'cache-control': 'max-age=60',
+952 silly registry.get     'content-length': '12964',
+952 silly registry.get     'accept-ranges': 'bytes',
+952 silly registry.get     via: '1.1 varnish',
+952 silly registry.get     age: '0',
+952 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+952 silly registry.get     'x-cache': 'HIT',
+952 silly registry.get     'x-cache-hits': '1',
+952 silly registry.get     'x-timer': 'S1413087838.812056,VS0,VE82',
+952 silly registry.get     vary: 'Accept',
+952 silly registry.get     'keep-alive': 'timeout=10, max=46',
+952 silly registry.get     connection: 'Keep-Alive' } ]
+953 verbose addNamed cookie-parser@1.3.3
+954 verbose addNamed cookie-parser@1.3.3 not in flight; adding
+955 silly addNamed semver.valid 1.3.3
+956 silly addNamed semver.validRange 1.3.3
+957 verbose addRemoteTarball https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz not in flight; adding
+958 verbose addRemoteTarball [ 'https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz',
+958 verbose addRemoteTarball   '7e3a2c745f4b460d5a340e578a0baa5d7725fe37' ]
+959 info retry fetch attempt 1 at 00:24:00
+960 info attempt registry request try #1 at 00:24:00
+961 http fetch GET https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz
+962 http 404 https://registry.npmjs.org/load-config-grunt
+963 verbose headers { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+963 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+963 verbose headers   'content-type': 'application/json',
+963 verbose headers   'cache-control': 'max-age=0',
+963 verbose headers   'content-length': '52',
+963 verbose headers   'accept-ranges': 'bytes',
+963 verbose headers   via: '1.1 varnish',
+963 verbose headers   age: '0',
+963 verbose headers   'x-served-by': 'cache-jfk1022-JFK',
+963 verbose headers   'x-cache': 'MISS',
+963 verbose headers   'x-cache-hits': '0',
+963 verbose headers   'x-timer': 'S1413087838.573313,VS0,VE349',
+963 verbose headers   'keep-alive': 'timeout=10, max=46',
+963 verbose headers   connection: 'Keep-Alive' }
+964 silly registry.get cb [ 404,
+964 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+964 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+964 silly registry.get     'content-type': 'application/json',
+964 silly registry.get     'cache-control': 'max-age=0',
+964 silly registry.get     'content-length': '52',
+964 silly registry.get     'accept-ranges': 'bytes',
+964 silly registry.get     via: '1.1 varnish',
+964 silly registry.get     age: '0',
+964 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+964 silly registry.get     'x-cache': 'MISS',
+964 silly registry.get     'x-cache-hits': '0',
+964 silly registry.get     'x-timer': 'S1413087838.573313,VS0,VE349',
+964 silly registry.get     'keep-alive': 'timeout=10, max=46',
+964 silly registry.get     connection: 'Keep-Alive' } ]
+965 verbose addNamed grunt-env@0.4.2
+966 verbose addNamed grunt-env@0.4.2 not in flight; adding
+967 silly addNamed semver.valid 0.4.2
+968 silly addNamed semver.validRange 0.4.2
+969 verbose addRemoteTarball https://registry.npmjs.org/grunt-env/-/grunt-env-0.4.2.tgz not in flight; adding
+970 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-env/-/grunt-env-0.4.2.tgz',
+970 verbose addRemoteTarball   'c00fd7fa29615819adcb044a43b82b12ca3eb9a0' ]
+971 info retry fetch attempt 1 at 00:24:00
+972 info attempt registry request try #1 at 00:24:00
+973 http fetch GET https://registry.npmjs.org/grunt-env/-/grunt-env-0.4.2.tgz
+974 http 200 https://registry.npmjs.org/grunt-concurrent
+975 silly registry.get cb [ 200,
+975 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+975 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+975 silly registry.get     etag: '"78IXFFVBHGOL195BZJMUOF72E"',
+975 silly registry.get     'content-type': 'application/json',
+975 silly registry.get     'cache-control': 'max-age=60',
+975 silly registry.get     'content-length': '16877',
+975 silly registry.get     'accept-ranges': 'bytes',
+975 silly registry.get     via: '1.1 varnish',
+975 silly registry.get     age: '239',
+975 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+975 silly registry.get     'x-cache': 'HIT',
+975 silly registry.get     'x-cache-hits': '1',
+975 silly registry.get     'x-timer': 'S1413087838.916855,VS0,VE13',
+975 silly registry.get     vary: 'Accept',
+975 silly registry.get     'keep-alive': 'timeout=10, max=48',
+975 silly registry.get     connection: 'Keep-Alive' } ]
+976 verbose addNamed grunt-concurrent@1.0.0
+977 verbose addNamed grunt-concurrent@1.0.0 not in flight; adding
+978 silly addNamed semver.valid 1.0.0
+979 silly addNamed semver.validRange 1.0.0
+980 verbose addRemoteTarball https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-1.0.0.tgz not in flight; adding
+981 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-1.0.0.tgz',
+981 verbose addRemoteTarball   '715f66ec7815a1ff33fd46105e0ce1242f9e7fee' ]
+982 info retry fetch attempt 1 at 00:24:00
+983 info attempt registry request try #1 at 00:24:00
+984 http fetch GET https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-1.0.0.tgz
+985 http 200 https://registry.npmjs.org/grunt-contrib-coffee
+986 silly registry.get cb [ 200,
+986 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+986 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+986 silly registry.get     etag: '"9NOCEURQFE6M7IM7OUTV1NTK2"',
+986 silly registry.get     'content-type': 'application/json',
+986 silly registry.get     'cache-control': 'max-age=60',
+986 silly registry.get     'content-length': '50979',
+986 silly registry.get     'accept-ranges': 'bytes',
+986 silly registry.get     via: '1.1 varnish',
+986 silly registry.get     age: '3096',
+986 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+986 silly registry.get     'x-cache': 'HIT',
+986 silly registry.get     'x-cache-hits': '1',
+986 silly registry.get     'x-timer': 'S1413087838.943733,VS0,VE13',
+986 silly registry.get     vary: 'Accept',
+986 silly registry.get     'keep-alive': 'timeout=10, max=45',
+986 silly registry.get     connection: 'Keep-Alive' } ]
+987 verbose addNamed grunt-contrib-coffee@0.12.0
+988 verbose addNamed grunt-contrib-coffee@0.12.0 not in flight; adding
+989 silly addNamed semver.valid 0.12.0
+990 silly addNamed semver.validRange 0.12.0
+991 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.12.0.tgz not in flight; adding
+992 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.12.0.tgz',
+992 verbose addRemoteTarball   '97f840b65693db2dda176f8ed678ef1435c846a2' ]
+993 info retry fetch attempt 1 at 00:24:00
+994 info attempt registry request try #1 at 00:24:00
+995 http fetch GET https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.12.0.tgz
+996 http 200 https://registry.npmjs.org/grunt-buster
+997 silly registry.get cb [ 200,
+997 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+997 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+997 silly registry.get     etag: '"BV2T1B265RVYCD9SLG9LUPXRX"',
+997 silly registry.get     'content-type': 'application/json',
+997 silly registry.get     'cache-control': 'max-age=60',
+997 silly registry.get     'content-length': '20342',
+997 silly registry.get     'accept-ranges': 'bytes',
+997 silly registry.get     via: '1.1 varnish',
+997 silly registry.get     age: '0',
+997 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+997 silly registry.get     'x-cache': 'MISS',
+997 silly registry.get     'x-cache-hits': '0',
+997 silly registry.get     'x-timer': 'S1413087838.594603,VS0,VE432',
+997 silly registry.get     vary: 'Accept',
+997 silly registry.get     'keep-alive': 'timeout=10, max=48',
+997 silly registry.get     connection: 'Keep-Alive' } ]
+998 http 404 https://registry.npmjs.org/karma-firefox-runner
+999 verbose headers { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+999 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+999 verbose headers   'content-type': 'application/json',
+999 verbose headers   'cache-control': 'max-age=0',
+999 verbose headers   'content-length': '52',
+999 verbose headers   'accept-ranges': 'bytes',
+999 verbose headers   via: '1.1 varnish',
+999 verbose headers   age: '0',
+999 verbose headers   'x-served-by': 'cache-jfk1022-JFK',
+999 verbose headers   'x-cache': 'MISS',
+999 verbose headers   'x-cache-hits': '0',
+999 verbose headers   'x-timer': 'S1413087838.943083,VS0,VE86',
+999 verbose headers   'keep-alive': 'timeout=10, max=45',
+999 verbose headers   connection: 'Keep-Alive' }
+1000 silly registry.get cb [ 404,
+1000 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1000 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1000 silly registry.get     'content-type': 'application/json',
+1000 silly registry.get     'cache-control': 'max-age=0',
+1000 silly registry.get     'content-length': '52',
+1000 silly registry.get     'accept-ranges': 'bytes',
+1000 silly registry.get     via: '1.1 varnish',
+1000 silly registry.get     age: '0',
+1000 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1000 silly registry.get     'x-cache': 'MISS',
+1000 silly registry.get     'x-cache-hits': '0',
+1000 silly registry.get     'x-timer': 'S1413087838.943083,VS0,VE86',
+1000 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1000 silly registry.get     connection: 'Keep-Alive' } ]
+1001 http 200 https://registry.npmjs.org/grunt-contrib-sass
+1002 silly registry.get cb [ 200,
+1002 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+1002 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1002 silly registry.get     etag: '"7C9TPN1VWX3YGTCXLYTF71XPH"',
+1002 silly registry.get     'content-type': 'application/json',
+1002 silly registry.get     'cache-control': 'max-age=60',
+1002 silly registry.get     'content-length': '41110',
+1002 silly registry.get     'accept-ranges': 'bytes',
+1002 silly registry.get     via: '1.1 varnish',
+1002 silly registry.get     age: '5492',
+1002 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+1002 silly registry.get     'x-cache': 'HIT',
+1002 silly registry.get     'x-cache-hits': '1',
+1002 silly registry.get     'x-timer': 'S1413087838.966519,VS0,VE14',
+1002 silly registry.get     vary: 'Accept',
+1002 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1002 silly registry.get     connection: 'Keep-Alive' } ]
+1003 http 200 https://registry.npmjs.org/grunt-karma
+1004 silly registry.get cb [ 200,
+1004 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:58 GMT',
+1004 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1004 silly registry.get     etag: '"C7C1NSROEPSWFY3A0OUU8NXA2"',
+1004 silly registry.get     'content-type': 'application/json',
+1004 silly registry.get     'cache-control': 'max-age=60',
+1004 silly registry.get     'content-length': '35859',
+1004 silly registry.get     'accept-ranges': 'bytes',
+1004 silly registry.get     via: '1.1 varnish',
+1004 silly registry.get     age: '10438',
+1004 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+1004 silly registry.get     'x-cache': 'HIT',
+1004 silly registry.get     'x-cache-hits': '1',
+1004 silly registry.get     'x-timer': 'S1413087838.644292,VS0,VE355',
+1004 silly registry.get     vary: 'Accept',
+1004 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1004 silly registry.get     connection: 'Keep-Alive' } ]
+1005 verbose addNamed grunt-buster@0.3.2
+1006 verbose addNamed grunt-buster@0.3.2 not in flight; adding
+1007 silly addNamed semver.valid 0.3.2
+1008 silly addNamed semver.validRange 0.3.2
+1009 verbose addRemoteTarball https://registry.npmjs.org/grunt-buster/-/grunt-buster-0.3.2.tgz not in flight; adding
+1010 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-buster/-/grunt-buster-0.3.2.tgz',
+1010 verbose addRemoteTarball   '0825116a7e1ba717212fb41911db0e0c359c1578' ]
+1011 verbose addNamed grunt-contrib-sass@0.8.1
+1012 verbose addNamed grunt-contrib-sass@0.8.1 not in flight; adding
+1013 silly addNamed semver.valid 0.8.1
+1014 silly addNamed semver.validRange 0.8.1
+1015 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-sass/-/grunt-contrib-sass-0.8.1.tgz not in flight; adding
+1016 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-sass/-/grunt-contrib-sass-0.8.1.tgz',
+1016 verbose addRemoteTarball   '8de924480dc12a51d35abe96a721682afc88d800' ]
+1017 http 200 https://registry.npmjs.org/grunt-contrib-csslint
+1018 silly registry.get cb [ 200,
+1018 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1018 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1018 silly registry.get     etag: '"I9PP2Z0YUVCX21PN0T99JXSJ"',
+1018 silly registry.get     'content-type': 'application/json',
+1018 silly registry.get     'cache-control': 'max-age=60',
+1018 silly registry.get     'content-length': '16546',
+1018 silly registry.get     'accept-ranges': 'bytes',
+1018 silly registry.get     via: '1.1 varnish',
+1018 silly registry.get     age: '0',
+1018 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1018 silly registry.get     'x-cache': 'HIT',
+1018 silly registry.get     'x-cache-hits': '1',
+1018 silly registry.get     'x-timer': 'S1413087839.115224,VS0,VE13',
+1018 silly registry.get     vary: 'Accept',
+1018 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1018 silly registry.get     connection: 'Keep-Alive' } ]
+1019 info retry fetch attempt 1 at 00:24:00
+1020 info attempt registry request try #1 at 00:24:00
+1021 http fetch GET https://registry.npmjs.org/grunt-contrib-sass/-/grunt-contrib-sass-0.8.1.tgz
+1022 verbose addNamed grunt-karma@0.9.0
+1023 verbose addNamed grunt-karma@0.9.0 not in flight; adding
+1024 silly addNamed semver.valid 0.9.0
+1025 silly addNamed semver.validRange 0.9.0
+1026 verbose addRemoteTarball https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz not in flight; adding
+1027 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz',
+1027 verbose addRemoteTarball   'de3d6ac478ffca350e729f3457457d5b0910e96b' ]
+1028 info retry fetch attempt 1 at 00:24:00
+1029 info attempt registry request try #1 at 00:24:00
+1030 http fetch GET https://registry.npmjs.org/grunt-buster/-/grunt-buster-0.3.2.tgz
+1031 info retry fetch attempt 1 at 00:24:00
+1032 info attempt registry request try #1 at 00:24:00
+1033 http fetch GET https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz
+1034 verbose addNamed grunt-contrib-csslint@0.3.1
+1035 verbose addNamed grunt-contrib-csslint@0.3.1 not in flight; adding
+1036 silly addNamed semver.valid 0.3.1
+1037 silly addNamed semver.validRange 0.3.1
+1038 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-csslint/-/grunt-contrib-csslint-0.3.1.tgz not in flight; adding
+1039 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-csslint/-/grunt-contrib-csslint-0.3.1.tgz',
+1039 verbose addRemoteTarball   '47f556acafb68d9784b51d93d4ed15605af74535' ]
+1040 info retry fetch attempt 1 at 00:24:00
+1041 info attempt registry request try #1 at 00:24:00
+1042 http fetch GET https://registry.npmjs.org/grunt-contrib-csslint/-/grunt-contrib-csslint-0.3.1.tgz
+1043 http 200 https://registry.npmjs.org/grunt-contrib-cssmin
+1044 silly registry.get cb [ 200,
+1044 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1044 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1044 silly registry.get     etag: '"7U7TFUBWLD4XMQUUSUX1OSA0C"',
+1044 silly registry.get     'content-type': 'application/json',
+1044 silly registry.get     'cache-control': 'max-age=60',
+1044 silly registry.get     'content-length': '24361',
+1044 silly registry.get     'accept-ranges': 'bytes',
+1044 silly registry.get     via: '1.1 varnish',
+1044 silly registry.get     age: '2029',
+1044 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1044 silly registry.get     'x-cache': 'HIT',
+1044 silly registry.get     'x-cache-hits': '1',
+1044 silly registry.get     'x-timer': 'S1413087839.121175,VS0,VE0',
+1044 silly registry.get     vary: 'Accept',
+1044 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1044 silly registry.get     connection: 'Keep-Alive' } ]
+1045 verbose addNamed grunt-contrib-cssmin@0.10.0
+1046 verbose addNamed grunt-contrib-cssmin@0.10.0 not in flight; adding
+1047 silly addNamed semver.valid 0.10.0
+1048 silly addNamed semver.validRange 0.10.0
+1049 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz not in flight; adding
+1050 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz',
+1050 verbose addRemoteTarball   'e05f341e753a9674b2b1070220fdcbac22079418' ]
+1051 info retry fetch attempt 1 at 00:24:00
+1052 info attempt registry request try #1 at 00:24:00
+1053 http fetch GET https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz
+1054 http 200 https://registry.npmjs.org/vhost
+1055 silly registry.get cb [ 200,
+1055 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1055 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1055 silly registry.get     etag: '"41NIT9NZDV8AZV6BODK8K0Q6K"',
+1055 silly registry.get     'content-type': 'application/json',
+1055 silly registry.get     'cache-control': 'max-age=60',
+1055 silly registry.get     'content-length': '11132',
+1055 silly registry.get     'accept-ranges': 'bytes',
+1055 silly registry.get     via: '1.1 varnish',
+1055 silly registry.get     age: '942',
+1055 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+1055 silly registry.get     'x-cache': 'HIT',
+1055 silly registry.get     'x-cache-hits': '1',
+1055 silly registry.get     'x-timer': 'S1413087839.132479,VS0,VE85',
+1055 silly registry.get     vary: 'Accept',
+1055 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1055 silly registry.get     connection: 'Keep-Alive' } ]
+1056 verbose addNamed vhost@3.0.0
+1057 verbose addNamed vhost@3.0.0 not in flight; adding
+1058 silly addNamed semver.valid 3.0.0
+1059 silly addNamed semver.validRange 3.0.0
+1060 verbose addRemoteTarball https://registry.npmjs.org/vhost/-/vhost-3.0.0.tgz not in flight; adding
+1061 verbose addRemoteTarball [ 'https://registry.npmjs.org/vhost/-/vhost-3.0.0.tgz',
+1061 verbose addRemoteTarball   '2d0ec59a3e012278b65adbe17c1717a5a5023045' ]
+1062 info retry fetch attempt 1 at 00:24:00
+1063 info attempt registry request try #1 at 00:24:00
+1064 http fetch GET https://registry.npmjs.org/vhost/-/vhost-3.0.0.tgz
+1065 http 200 https://registry.npmjs.org/karma-opera-launcher
+1066 silly registry.get cb [ 200,
+1066 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1066 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1066 silly registry.get     etag: '"7R1JFBACT3OZF42WV2PXQ3T3Q"',
+1066 silly registry.get     'content-type': 'application/json',
+1066 silly registry.get     'cache-control': 'max-age=60',
+1066 silly registry.get     'content-length': '4143',
+1066 silly registry.get     'accept-ranges': 'bytes',
+1066 silly registry.get     via: '1.1 varnish',
+1066 silly registry.get     age: '0',
+1066 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1066 silly registry.get     'x-cache': 'MISS',
+1066 silly registry.get     'x-cache-hits': '0',
+1066 silly registry.get     'x-timer': 'S1413087839.218721,VS0,VE73',
+1066 silly registry.get     vary: 'Accept',
+1066 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1066 silly registry.get     connection: 'Keep-Alive' } ]
+1067 verbose addNamed karma-opera-launcher@0.1.0
+1068 verbose addNamed karma-opera-launcher@0.1.0 not in flight; adding
+1069 silly addNamed semver.valid 0.1.0
+1070 silly addNamed semver.validRange 0.1.0
+1071 verbose addRemoteTarball https://registry.npmjs.org/karma-opera-launcher/-/karma-opera-launcher-0.1.0.tgz not in flight; adding
+1072 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-opera-launcher/-/karma-opera-launcher-0.1.0.tgz',
+1072 verbose addRemoteTarball   '751c89db4e686a8327d291f19a58b34f00dbd078' ]
+1073 info retry fetch attempt 1 at 00:24:00
+1074 info attempt registry request try #1 at 00:24:00
+1075 http fetch GET https://registry.npmjs.org/karma-opera-launcher/-/karma-opera-launcher-0.1.0.tgz
+1076 http 200 https://registry.npmjs.org/method-override
+1077 silly registry.get cb [ 200,
+1077 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1077 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1077 silly registry.get     etag: '"BK8UJ3NUZL6F7AUM9I9CBU9KK"',
+1077 silly registry.get     'content-type': 'application/json',
+1077 silly registry.get     'cache-control': 'max-age=60',
+1077 silly registry.get     'content-length': '25376',
+1077 silly registry.get     'accept-ranges': 'bytes',
+1077 silly registry.get     via: '1.1 varnish',
+1077 silly registry.get     age: '1967',
+1077 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1077 silly registry.get     'x-cache': 'HIT',
+1077 silly registry.get     'x-cache-hits': '1',
+1077 silly registry.get     'x-timer': 'S1413087839.233242,VS0,VE84',
+1077 silly registry.get     vary: 'Accept',
+1077 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1077 silly registry.get     connection: 'Keep-Alive' } ]
+1078 verbose addNamed method-override@2.2.0
+1079 verbose addNamed method-override@2.2.0 not in flight; adding
+1080 silly addNamed semver.valid 2.2.0
+1081 silly addNamed semver.validRange 2.2.0
+1082 verbose addRemoteTarball https://registry.npmjs.org/method-override/-/method-override-2.2.0.tgz not in flight; adding
+1083 verbose addRemoteTarball [ 'https://registry.npmjs.org/method-override/-/method-override-2.2.0.tgz',
+1083 verbose addRemoteTarball   '177e852b6add3b4f9177033a9446b01e7801a0c0' ]
+1084 info retry fetch attempt 1 at 00:24:00
+1085 info attempt registry request try #1 at 00:24:00
+1086 http fetch GET https://registry.npmjs.org/method-override/-/method-override-2.2.0.tgz
+1087 http 200 https://registry.npmjs.org/grunt-contrib-jasmine
+1088 silly registry.get cb [ 200,
+1088 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1088 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1088 silly registry.get     etag: '"2E31GLN2HW5HWNY19S22HS8BF"',
+1088 silly registry.get     'content-type': 'application/json',
+1088 silly registry.get     'cache-control': 'max-age=60',
+1088 silly registry.get     'content-length': '53235',
+1088 silly registry.get     'accept-ranges': 'bytes',
+1088 silly registry.get     via: '1.1 varnish',
+1088 silly registry.get     age: '0',
+1088 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1088 silly registry.get     'x-cache': 'HIT',
+1088 silly registry.get     'x-cache-hits': '1',
+1088 silly registry.get     'x-timer': 'S1413087839.358970,VS0,VE19',
+1088 silly registry.get     vary: 'Accept',
+1088 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1088 silly registry.get     connection: 'Keep-Alive' } ]
+1089 verbose addNamed grunt-contrib-jasmine@0.8.0
+1090 verbose addNamed grunt-contrib-jasmine@0.8.0 not in flight; adding
+1091 silly addNamed semver.valid 0.8.0
+1092 silly addNamed semver.validRange 0.8.0
+1093 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-jasmine/-/grunt-contrib-jasmine-0.8.0.tgz not in flight; adding
+1094 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-jasmine/-/grunt-contrib-jasmine-0.8.0.tgz',
+1094 verbose addRemoteTarball   '33209d42c8dc7cb40b02404c0295bc19b743a549' ]
+1095 info retry fetch attempt 1 at 00:24:00
+1096 info attempt registry request try #1 at 00:24:00
+1097 http fetch GET https://registry.npmjs.org/grunt-contrib-jasmine/-/grunt-contrib-jasmine-0.8.0.tgz
+1098 http 404 https://registry.npmjs.org/grunt-contrib-coffeelint
+1099 verbose headers { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1099 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1099 verbose headers   'content-type': 'application/json',
+1099 verbose headers   'cache-control': 'max-age=0',
+1099 verbose headers   'content-length': '52',
+1099 verbose headers   'accept-ranges': 'bytes',
+1099 verbose headers   via: '1.1 varnish',
+1099 verbose headers   age: '0',
+1099 verbose headers   'x-served-by': 'cache-jfk1025-JFK',
+1099 verbose headers   'x-cache': 'MISS',
+1099 verbose headers   'x-cache-hits': '0',
+1099 verbose headers   'x-timer': 'S1413087839.114315,VS0,VE352',
+1099 verbose headers   'keep-alive': 'timeout=10, max=44',
+1099 verbose headers   connection: 'Keep-Alive' }
+1100 silly registry.get cb [ 404,
+1100 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1100 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1100 silly registry.get     'content-type': 'application/json',
+1100 silly registry.get     'cache-control': 'max-age=0',
+1100 silly registry.get     'content-length': '52',
+1100 silly registry.get     'accept-ranges': 'bytes',
+1100 silly registry.get     via: '1.1 varnish',
+1100 silly registry.get     age: '0',
+1100 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+1100 silly registry.get     'x-cache': 'MISS',
+1100 silly registry.get     'x-cache-hits': '0',
+1100 silly registry.get     'x-timer': 'S1413087839.114315,VS0,VE352',
+1100 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1100 silly registry.get     connection: 'Keep-Alive' } ]
+1101 http 200 https://registry.npmjs.org/grunt-contrib-watch
+1102 silly registry.get cb [ 200,
+1102 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1102 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1102 silly registry.get     etag: '"269BOW72EI5QIWPUVGY0ZQEPT"',
+1102 silly registry.get     'content-type': 'application/json',
+1102 silly registry.get     'cache-control': 'max-age=60',
+1102 silly registry.get     'content-length': '59818',
+1102 silly registry.get     'accept-ranges': 'bytes',
+1102 silly registry.get     via: '1.1 varnish',
+1102 silly registry.get     age: '15',
+1102 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1102 silly registry.get     'x-cache': 'HIT',
+1102 silly registry.get     'x-cache-hits': '1',
+1102 silly registry.get     'x-timer': 'S1413087839.457032,VS0,VE0',
+1102 silly registry.get     vary: 'Accept',
+1102 silly registry.get     'keep-alive': 'timeout=10, max=41',
+1102 silly registry.get     connection: 'Keep-Alive' } ]
+1103 verbose addNamed grunt-contrib-watch@0.6.1
+1104 verbose addNamed grunt-contrib-watch@0.6.1 not in flight; adding
+1105 silly addNamed semver.valid 0.6.1
+1106 silly addNamed semver.validRange 0.6.1
+1107 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz not in flight; adding
+1108 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz',
+1108 verbose addRemoteTarball   '64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15' ]
+1109 info retry fetch attempt 1 at 00:24:00
+1110 info attempt registry request try #1 at 00:24:00
+1111 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+1112 http 200 https://registry.npmjs.org/grunt-contrib-jshint
+1113 silly registry.get cb [ 200,
+1113 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1113 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1113 silly registry.get     etag: '"4B9ZMLBECSFVK0H0YHLBJG9UN"',
+1113 silly registry.get     'content-type': 'application/json',
+1113 silly registry.get     'cache-control': 'max-age=60',
+1113 silly registry.get     'content-length': '51687',
+1113 silly registry.get     'accept-ranges': 'bytes',
+1113 silly registry.get     via: '1.1 varnish',
+1113 silly registry.get     age: '2437',
+1113 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+1113 silly registry.get     'x-cache': 'HIT',
+1113 silly registry.get     'x-cache-hits': '2',
+1113 silly registry.get     'x-timer': 'S1413087839.509844,VS0,VE0',
+1113 silly registry.get     vary: 'Accept',
+1113 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1113 silly registry.get     connection: 'Keep-Alive' } ]
+1114 verbose addNamed grunt-contrib-jshint@0.10.0
+1115 verbose addNamed grunt-contrib-jshint@0.10.0 not in flight; adding
+1116 silly addNamed semver.valid 0.10.0
+1117 silly addNamed semver.validRange 0.10.0
+1118 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz not in flight; adding
+1119 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz',
+1119 verbose addRemoteTarball   '57ebccca87e8f327af6645d8a3c586d4845e4d81' ]
+1120 info retry fetch attempt 1 at 00:24:01
+1121 info attempt registry request try #1 at 00:24:01
+1122 http fetch GET https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+1123 http 200 https://registry.npmjs.org/karma-chrome-launcher
+1124 silly registry.get cb [ 200,
+1124 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1124 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1124 silly registry.get     etag: '"3JE0NHD9CKD2YUMUXT6Y2BEQB"',
+1124 silly registry.get     'content-type': 'application/json',
+1124 silly registry.get     'cache-control': 'max-age=60',
+1124 silly registry.get     'content-length': '11627',
+1124 silly registry.get     'accept-ranges': 'bytes',
+1124 silly registry.get     via: '1.1 varnish',
+1124 silly registry.get     age: '0',
+1124 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+1124 silly registry.get     'x-cache': 'HIT',
+1124 silly registry.get     'x-cache-hits': '1',
+1124 silly registry.get     'x-timer': 'S1413087839.270437,VS0,VE346',
+1124 silly registry.get     vary: 'Accept',
+1124 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1124 silly registry.get     connection: 'Keep-Alive' } ]
+1125 http 200 https://registry.npmjs.org/body-parser
+1126 silly registry.get cb [ 200,
+1126 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1126 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1126 silly registry.get     etag: '"2Z3MRRW3UTD2PGDGVXU6ZKF4D"',
+1126 silly registry.get     'content-type': 'application/json',
+1126 silly registry.get     'cache-control': 'max-age=60',
+1126 silly registry.get     'content-length': '67602',
+1126 silly registry.get     'accept-ranges': 'bytes',
+1126 silly registry.get     via: '1.1 varnish',
+1126 silly registry.get     age: '0',
+1126 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+1126 silly registry.get     'x-cache': 'HIT',
+1126 silly registry.get     'x-cache-hits': '1',
+1126 silly registry.get     'x-timer': 'S1413087839.212200,VS0,VE344',
+1126 silly registry.get     vary: 'Accept',
+1126 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1126 silly registry.get     connection: 'Keep-Alive' } ]
+1127 http 200 https://registry.npmjs.org/time-grunt
+1128 silly registry.get cb [ 200,
+1128 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1128 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1128 silly registry.get     etag: '"9EETXUDGO0FTE83EE8LO1RB8Q"',
+1128 silly registry.get     'content-type': 'application/json',
+1128 silly registry.get     'cache-control': 'max-age=60',
+1128 silly registry.get     'content-length': '22334',
+1128 silly registry.get     'accept-ranges': 'bytes',
+1128 silly registry.get     via: '1.1 varnish',
+1128 silly registry.get     age: '2081',
+1128 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1128 silly registry.get     'x-cache': 'HIT',
+1128 silly registry.get     'x-cache-hits': '1',
+1128 silly registry.get     'x-timer': 'S1413087839.601388,VS0,VE14',
+1128 silly registry.get     vary: 'Accept',
+1128 silly registry.get     'keep-alive': 'timeout=10, max=40',
+1128 silly registry.get     connection: 'Keep-Alive' } ]
+1129 verbose addNamed karma-chrome-launcher@0.1.5
+1130 verbose addNamed karma-chrome-launcher@0.1.5 not in flight; adding
+1131 silly addNamed semver.valid 0.1.5
+1132 silly addNamed semver.validRange 0.1.5
+1133 verbose addRemoteTarball https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.5.tgz not in flight; adding
+1134 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.5.tgz',
+1134 verbose addRemoteTarball   '70e95dca5c4d7a15884850daa3ab60d648dbfe8b' ]
+1135 info retry fetch attempt 1 at 00:24:01
+1136 info attempt registry request try #1 at 00:24:01
+1137 http fetch GET https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.5.tgz
+1138 verbose addNamed time-grunt@1.0.0
+1139 verbose addNamed time-grunt@1.0.0 not in flight; adding
+1140 silly addNamed semver.valid 1.0.0
+1141 silly addNamed semver.validRange 1.0.0
+1142 verbose addRemoteTarball https://registry.npmjs.org/time-grunt/-/time-grunt-1.0.0.tgz not in flight; adding
+1143 verbose addRemoteTarball [ 'https://registry.npmjs.org/time-grunt/-/time-grunt-1.0.0.tgz',
+1143 verbose addRemoteTarball   '6b27654339c5d69ac5992b131e2a7d140a30c2a1' ]
+1144 info retry fetch attempt 1 at 00:24:01
+1145 info attempt registry request try #1 at 00:24:01
+1146 http fetch GET https://registry.npmjs.org/time-grunt/-/time-grunt-1.0.0.tgz
+1147 http 200 https://registry.npmjs.org/connect-flash
+1148 silly registry.get cb [ 200,
+1148 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1148 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1148 silly registry.get     etag: '"BMK2HB9ZQI5ZCPFQEYCW1J3LG"',
+1148 silly registry.get     'content-type': 'application/json',
+1148 silly registry.get     'cache-control': 'max-age=60',
+1148 silly registry.get     'content-length': '5614',
+1148 silly registry.get     'accept-ranges': 'bytes',
+1148 silly registry.get     via: '1.1 varnish',
+1148 silly registry.get     age: '2874',
+1148 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+1148 silly registry.get     'x-cache': 'HIT',
+1148 silly registry.get     'x-cache-hits': '1',
+1148 silly registry.get     'x-timer': 'S1413087839.676047,VS0,VE14',
+1148 silly registry.get     vary: 'Accept',
+1148 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1148 silly registry.get     connection: 'Keep-Alive' } ]
+1149 verbose addNamed body-parser@1.9.0
+1150 verbose addNamed body-parser@1.9.0 not in flight; adding
+1151 silly addNamed semver.valid 1.9.0
+1152 silly addNamed semver.validRange 1.9.0
+1153 http 200 https://registry.npmjs.org/supertest
+1154 silly registry.get cb [ 200,
+1154 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1154 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1154 silly registry.get     etag: '"EU0HUICVYNHERC3UW12VB6P1M"',
+1154 silly registry.get     'content-type': 'application/json',
+1154 silly registry.get     'cache-control': 'max-age=60',
+1154 silly registry.get     'content-length': '32453',
+1154 silly registry.get     'accept-ranges': 'bytes',
+1154 silly registry.get     via: '1.1 varnish',
+1154 silly registry.get     age: '0',
+1154 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1154 silly registry.get     'x-cache': 'HIT',
+1154 silly registry.get     'x-cache-hits': '1',
+1154 silly registry.get     'x-timer': 'S1413087839.316712,VS0,VE350',
+1154 silly registry.get     vary: 'Accept',
+1154 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1154 silly registry.get     connection: 'Keep-Alive' } ]
+1155 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.9.0.tgz not in flight; adding
+1156 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.0.tgz',
+1156 verbose addRemoteTarball   '95d72943b1a4f67f56bbac9e0dcc837b68703605' ]
+1157 verbose addNamed connect-flash@0.1.1
+1158 verbose addNamed connect-flash@0.1.1 not in flight; adding
+1159 silly addNamed semver.valid 0.1.1
+1160 silly addNamed semver.validRange 0.1.1
+1161 verbose addRemoteTarball https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz not in flight; adding
+1162 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz',
+1162 verbose addRemoteTarball   'd8630f26d95a7f851f9956b1e8cc6732f3b6aa30' ]
+1163 verbose addNamed supertest@0.14.0
+1164 verbose addNamed supertest@0.14.0 not in flight; adding
+1165 silly addNamed semver.valid 0.14.0
+1166 silly addNamed semver.validRange 0.14.0
+1167 info retry fetch attempt 1 at 00:24:01
+1168 info attempt registry request try #1 at 00:24:01
+1169 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.9.0.tgz
+1170 verbose addRemoteTarball https://registry.npmjs.org/supertest/-/supertest-0.14.0.tgz not in flight; adding
+1171 verbose addRemoteTarball [ 'https://registry.npmjs.org/supertest/-/supertest-0.14.0.tgz',
+1171 verbose addRemoteTarball   'd385a8ebced95350de8bde26460d848917dee305' ]
+1172 info retry fetch attempt 1 at 00:24:01
+1173 info attempt registry request try #1 at 00:24:01
+1174 http fetch GET https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz
+1175 info retry fetch attempt 1 at 00:24:01
+1176 info attempt registry request try #1 at 00:24:01
+1177 http fetch GET https://registry.npmjs.org/supertest/-/supertest-0.14.0.tgz
+1178 http 200 https://registry.npmjs.org/grunt-contrib-uglify
+1179 silly registry.get cb [ 200,
+1179 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1179 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1179 silly registry.get     etag: '"2I7W5MAY3S54C71QT430OGZ53"',
+1179 silly registry.get     'content-type': 'application/json',
+1179 silly registry.get     'cache-control': 'max-age=60',
+1179 silly registry.get     'content-length': '53250',
+1179 silly registry.get     'accept-ranges': 'bytes',
+1179 silly registry.get     via: '1.1 varnish',
+1179 silly registry.get     age: '3716',
+1179 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+1179 silly registry.get     'x-cache': 'HIT',
+1179 silly registry.get     'x-cache-hits': '1',
+1179 silly registry.get     'x-timer': 'S1413087839.700511,VS0,VE0',
+1179 silly registry.get     vary: 'Accept',
+1179 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1179 silly registry.get     connection: 'Keep-Alive' } ]
+1180 http 200 https://registry.npmjs.org/morgan
+1181 silly registry.get cb [ 200,
+1181 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1181 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1181 silly registry.get     etag: '"3S3B7YWPJBEPC6HY6PCCFBA8G"',
+1181 silly registry.get     'content-type': 'application/json',
+1181 silly registry.get     'cache-control': 'max-age=60',
+1181 silly registry.get     'content-length': '24341',
+1181 silly registry.get     'accept-ranges': 'bytes',
+1181 silly registry.get     via: '1.1 varnish',
+1181 silly registry.get     age: '0',
+1181 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+1181 silly registry.get     'x-cache': 'HIT',
+1181 silly registry.get     'x-cache-hits': '1',
+1181 silly registry.get     'x-timer': 'S1413087839.690741,VS0,VE20',
+1181 silly registry.get     vary: 'Accept',
+1181 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1181 silly registry.get     connection: 'Keep-Alive' } ]
+1182 http 304 https://registry.npmjs.org/bower
+1183 silly registry.get cb [ 304,
+1183 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1183 silly registry.get     server: 'Apache',
+1183 silly registry.get     via: '1.1 varnish',
+1183 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1183 silly registry.get     'cache-control': 'max-age=60',
+1183 silly registry.get     etag: '"BNEPXH85JRVX0PTJ3Z7BEQ39Y"',
+1183 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1183 silly registry.get     'x-cache': 'HIT',
+1183 silly registry.get     'x-cache-hits': '1',
+1183 silly registry.get     'x-timer': 'S1413087839.775959,VS0,VE0',
+1183 silly registry.get     vary: 'Accept',
+1183 silly registry.get     'content-length': '0',
+1183 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1183 silly registry.get     connection: 'Keep-Alive' } ]
+1184 verbose etag https://registry.npmjs.org/bower from cache
+1185 verbose addNamed morgan@1.3.2
+1186 verbose addNamed morgan@1.3.2 not in flight; adding
+1187 silly addNamed semver.valid 1.3.2
+1188 silly addNamed semver.validRange 1.3.2
+1189 verbose addRemoteTarball https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz not in flight; adding
+1190 verbose addRemoteTarball [ 'https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz',
+1190 verbose addRemoteTarball   'ac41aa15221ee4e5f2ac843896b6918139a18efd' ]
+1191 verbose addNamed grunt-contrib-uglify@0.6.0
+1192 verbose addNamed grunt-contrib-uglify@0.6.0 not in flight; adding
+1193 silly addNamed semver.valid 0.6.0
+1194 silly addNamed semver.validRange 0.6.0
+1195 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.6.0.tgz not in flight; adding
+1196 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.6.0.tgz',
+1196 verbose addRemoteTarball   '3a271d4dc4daba64691d0d0d08550ec54a7ec0ab' ]
+1197 info retry fetch attempt 1 at 00:24:01
+1198 info attempt registry request try #1 at 00:24:01
+1199 http fetch GET https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+1200 info retry fetch attempt 1 at 00:24:01
+1201 info attempt registry request try #1 at 00:24:01
+1202 http fetch GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.6.0.tgz
+1203 http 304 https://registry.npmjs.org/express
+1204 silly registry.get cb [ 304,
+1204 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1204 silly registry.get     server: 'Apache',
+1204 silly registry.get     via: '1.1 varnish',
+1204 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1204 silly registry.get     'cache-control': 'max-age=60',
+1204 silly registry.get     etag: '"7FVLRT9Y9RQJKGVQC7099FKQ4"',
+1204 silly registry.get     age: '138',
+1204 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+1204 silly registry.get     'x-cache': 'HIT',
+1204 silly registry.get     'x-cache-hits': '1',
+1204 silly registry.get     'x-timer': 'S1413087839.798164,VS0,VE1',
+1204 silly registry.get     vary: 'Accept',
+1204 silly registry.get     'content-length': '0',
+1204 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1204 silly registry.get     connection: 'Keep-Alive' } ]
+1205 verbose etag https://registry.npmjs.org/express from cache
+1206 http 304 https://registry.npmjs.org/grunt
+1207 silly registry.get cb [ 304,
+1207 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1207 silly registry.get     server: 'Apache',
+1207 silly registry.get     via: '1.1 varnish',
+1207 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1207 silly registry.get     'cache-control': 'max-age=60',
+1207 silly registry.get     etag: '"EI567EVZAI0PSW2BVN7EKU038"',
+1207 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1207 silly registry.get     'x-cache': 'HIT',
+1207 silly registry.get     'x-cache-hits': '1',
+1207 silly registry.get     'x-timer': 'S1413087839.810860,VS0,VE0',
+1207 silly registry.get     vary: 'Accept',
+1207 silly registry.get     'content-length': '0',
+1207 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1207 silly registry.get     connection: 'Keep-Alive' } ]
+1208 verbose etag https://registry.npmjs.org/grunt from cache
+1209 http 304 https://registry.npmjs.org/karma
+1210 silly registry.get cb [ 304,
+1210 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1210 silly registry.get     server: 'Apache',
+1210 silly registry.get     via: '1.1 varnish',
+1210 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1210 silly registry.get     'cache-control': 'max-age=60',
+1210 silly registry.get     etag: '"3Z5NA2ZQ8SZFNJFK9GK275JF9"',
+1210 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+1210 silly registry.get     'x-cache': 'HIT',
+1210 silly registry.get     'x-cache-hits': '1',
+1210 silly registry.get     'x-timer': 'S1413087839.808631,VS0,VE2',
+1210 silly registry.get     vary: 'Accept',
+1210 silly registry.get     'content-length': '0',
+1210 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1210 silly registry.get     connection: 'Keep-Alive' } ]
+1211 verbose etag https://registry.npmjs.org/karma from cache
+1212 http 304 https://registry.npmjs.org/phantomjs
+1213 silly registry.get cb [ 304,
+1213 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1213 silly registry.get     server: 'Apache',
+1213 silly registry.get     via: '1.1 varnish',
+1213 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1213 silly registry.get     'cache-control': 'max-age=60',
+1213 silly registry.get     etag: '"80ZNOFJA1DO3IKMLJB82RRBHZ"',
+1213 silly registry.get     age: '1085',
+1213 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+1213 silly registry.get     'x-cache': 'HIT',
+1213 silly registry.get     'x-cache-hits': '1',
+1213 silly registry.get     'x-timer': 'S1413087839.812222,VS0,VE1',
+1213 silly registry.get     vary: 'Accept',
+1213 silly registry.get     'content-length': '0',
+1213 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1213 silly registry.get     connection: 'Keep-Alive' } ]
+1214 verbose etag https://registry.npmjs.org/phantomjs from cache
+1215 verbose addNamed bower@1.3.12
+1216 verbose addNamed bower@1.3.12 not in flight; adding
+1217 silly addNamed semver.valid 1.3.12
+1218 silly addNamed semver.validRange 1.3.12
+1219 verbose addNamed express@4.9.7
+1220 verbose addNamed express@4.9.7 not in flight; adding
+1221 silly addNamed semver.valid 4.9.7
+1222 silly addNamed semver.validRange 4.9.7
+1223 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.9.7.tgz not in flight; adding
+1224 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.9.7.tgz',
+1224 verbose addRemoteTarball   'ae3e0bdf0095749467fde125afd77e7988ff0fbb' ]
+1225 http fetch 200 https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-0.1.1.tgz
+1226 http fetch 200 https://registry.npmjs.org/passport-local/-/passport-local-1.0.0.tgz
+1227 http 304 https://registry.npmjs.org/jasmine
+1228 silly registry.get cb [ 304,
+1228 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1228 silly registry.get     server: 'Apache',
+1228 silly registry.get     via: '1.1 varnish',
+1228 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1228 silly registry.get     'cache-control': 'max-age=60',
+1228 silly registry.get     etag: '"9DWBDJTK4IYJTR378RDA1IZHC"',
+1228 silly registry.get     'x-served-by': 'cache-jfk1022-JFK',
+1228 silly registry.get     'x-cache': 'MISS',
+1228 silly registry.get     'x-cache-hits': '0',
+1228 silly registry.get     'x-timer': 'S1413087839.774271,VS0,VE77',
+1228 silly registry.get     vary: 'Accept',
+1228 silly registry.get     'content-length': '0',
+1228 silly registry.get     'keep-alive': 'timeout=10, max=39',
+1228 silly registry.get     connection: 'Keep-Alive' } ]
+1229 verbose etag https://registry.npmjs.org/jasmine from cache
+1230 info retry fetch attempt 1 at 00:24:01
+1231 info attempt registry request try #1 at 00:24:01
+1232 http fetch GET https://registry.npmjs.org/express/-/express-4.9.7.tgz
+1233 verbose addNamed grunt@0.4.5
+1234 verbose addNamed grunt@0.4.5 not in flight; adding
+1235 silly addNamed semver.valid 0.4.5
+1236 silly addNamed semver.validRange 0.4.5
+1237 verbose addNamed phantomjs@1.9.10
+1238 verbose addNamed phantomjs@1.9.10 not in flight; adding
+1239 silly addNamed semver.valid 1.9.10
+1240 silly addNamed semver.validRange 1.9.10
+1241 http 304 https://registry.npmjs.org/buster
+1242 silly registry.get cb [ 304,
+1242 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1242 silly registry.get     server: 'Apache',
+1242 silly registry.get     via: '1.1 varnish',
+1242 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:23:59 GMT',
+1242 silly registry.get     'cache-control': 'max-age=60',
+1242 silly registry.get     etag: '"5X7X8BPLV8FV8ELM9JXBUM4DF"',
+1242 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+1242 silly registry.get     'x-cache': 'MISS',
+1242 silly registry.get     'x-cache-hits': '0',
+1242 silly registry.get     'x-timer': 'S1413087839.828793,VS0,VE45',
+1242 silly registry.get     vary: 'Accept',
+1242 silly registry.get     'content-length': '0',
+1242 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1242 silly registry.get     connection: 'Keep-Alive' } ]
+1243 verbose etag https://registry.npmjs.org/buster from cache
+1244 http fetch 200 https://registry.npmjs.org/passport/-/passport-0.2.1.tgz
+1245 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\bower\1.3.12\package\package.json not in flight; writing
+1246 verbose addNamed karma@0.12.24
+1247 verbose addNamed karma@0.12.24 not in flight; adding
+1248 silly addNamed semver.valid 0.12.24
+1249 silly addNamed semver.validRange 0.12.24
+1250 silly fetchAndShaCheck shasum a6380accab60a583fdd624f41b9a3f10fdf41008
+1251 verbose addNamed jasmine@2.0.1
+1252 verbose addNamed jasmine@2.0.1 not in flight; adding
+1253 silly addNamed semver.valid 2.0.1
+1254 silly addNamed semver.validRange 2.0.1
+1255 verbose addNamed buster@0.7.14
+1256 verbose addNamed buster@0.7.14 not in flight; adding
+1257 silly addNamed semver.valid 0.7.14
+1258 silly addNamed semver.validRange 0.7.14
+1259 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\karma-safari-launcher\-\karma-safari-launcher-0.1.1.tgz not in flight; verifying
+1260 verbose addTmpTarball already have metadata; skipping unpack
+1261 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt\0.4.5\package\package.json not in flight; writing
+1262 http fetch 200 https://registry.npmjs.org/grunt-newer/-/grunt-newer-0.7.0.tgz
+1263 http fetch 200 https://registry.npmjs.org/karma-ie-launcher/-/karma-ie-launcher-0.1.5.tgz
+1264 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\buster\0.7.14\package\package.json not in flight; writing
+1265 silly fetchAndShaCheck shasum a7d34c07b30fb605be885edbc8c93e5142e38574
+1266 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\phantomjs\1.9.10\package\package.json not in flight; writing
+1267 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\jasmine\2.0.1\package\package.json not in flight; writing
+1268 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\passport\-\passport-0.2.1.tgz not in flight; verifying
+1269 verbose addTmpTarball already have metadata; skipping unpack
+1270 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\karma\0.12.24\package\package.json not in flight; writing
+1271 silly fetchAndShaCheck shasum 1fe63268c92e75606626437e3b906662c15ba6ee
+1272 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\karma-safari-launcher\0.1.1\package\package.json not in flight; writing
+1273 silly fetchAndShaCheck shasum ee43bd238f61c45dd8fbc1694b13a50dfb5a3e1b
+1274 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\passport-local\-\passport-local-1.0.0.tgz not in flight; verifying
+1275 verbose addTmpTarball already have metadata; skipping unpack
+1276 http fetch 200 https://registry.npmjs.org/compression/-/compression-1.1.0.tgz
+1277 http fetch 200 https://registry.npmjs.org/should/-/should-4.0.4.tgz
+1278 silly fetchAndShaCheck shasum 376d9d9b64ce5c648b6bfa1bda98f7bc2193e41e
+1279 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\passport\0.2.1\package\package.json not in flight; writing
+1280 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\karma-ie-launcher\-\karma-ie-launcher-0.1.5.tgz not in flight; verifying
+1281 verbose addTmpTarball already have metadata; skipping unpack
+1282 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-newer\-\grunt-newer-0.7.0.tgz not in flight; verifying
+1283 verbose addTmpTarball already have metadata; skipping unpack
+1284 http fetch 200 https://registry.npmjs.org/grunt-contrib-qunit/-/grunt-contrib-qunit-0.5.2.tgz
+1285 silly fetchAndShaCheck shasum 58243eded272fc531d7c744d8e8daa7cc0b99215
+1286 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\compression\-\compression-1.1.0.tgz not in flight; verifying
+1287 verbose addTmpTarball already have metadata; skipping unpack
+1288 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\passport-local\1.0.0\package\package.json not in flight; writing
+1289 http 304 https://registry.npmjs.org/qunit
+1290 silly registry.get cb [ 304,
+1290 silly registry.get   { date: 'Sun, 12 Oct 2014 04:23:59 GMT',
+1290 silly registry.get     server: 'Apache',
+1290 silly registry.get     via: '1.1 varnish',
+1290 silly registry.get     'last-modified': 'Sun, 12 Oct 2014 04:24:00 GMT',
+1290 silly registry.get     'cache-control': 'max-age=60',
+1290 silly registry.get     etag: '"9BIC4PLSTKKIIO3F2J07BQZ0O"',
+1290 silly registry.get     age: '0',
+1290 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+1290 silly registry.get     'x-cache': 'MISS',
+1290 silly registry.get     'x-cache-hits': '0',
+1290 silly registry.get     'x-timer': 'S1413087839.775161,VS0,VE325',
+1290 silly registry.get     vary: 'Accept',
+1290 silly registry.get     'content-length': '0',
+1290 silly registry.get     'keep-alive': 'timeout=10, max=41',
+1290 silly registry.get     connection: 'Keep-Alive' } ]
+1291 verbose etag https://registry.npmjs.org/qunit from cache
+1292 silly fetchAndShaCheck shasum 34375497e911c10458494c0645e2cdd99a0bc05a
+1293 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\karma-ie-launcher\0.1.5\package\package.json not in flight; writing
+1294 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-qunit\-\grunt-contrib-qunit-0.5.2.tgz not in flight; verifying
+1295 verbose addTmpTarball already have metadata; skipping unpack
+1296 verbose addNamed qunit@0.7.5
+1297 verbose addNamed qunit@0.7.5 not in flight; adding
+1298 silly addNamed semver.valid 0.7.5
+1299 silly addNamed semver.validRange 0.7.5
+1300 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-newer\0.7.0\package\package.json not in flight; writing
+1301 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\compression\1.1.0\package\package.json not in flight; writing
+1302 http fetch 200 https://registry.npmjs.org/cookie-parser/-/cookie-parser-1.3.3.tgz
+1303 silly fetchAndShaCheck shasum 8efaa304f1f148cf3d2e955862990f9ab9ea628f
+1304 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\should\-\should-4.0.4.tgz not in flight; verifying
+1305 verbose addTmpTarball already have metadata; skipping unpack
+1306 silly fetchAndShaCheck shasum 7e3a2c745f4b460d5a340e578a0baa5d7725fe37
+1307 http fetch 200 https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-1.0.0.tgz
+1308 http fetch 200 https://registry.npmjs.org/grunt-env/-/grunt-env-0.4.2.tgz
+1309 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-qunit\0.5.2\package\package.json not in flight; writing
+1310 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\cookie-parser\-\cookie-parser-1.3.3.tgz not in flight; verifying
+1311 verbose addTmpTarball already have metadata; skipping unpack
+1312 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\should\4.0.4\package\package.json not in flight; writing
+1313 http fetch 200 https://registry.npmjs.org/grunt-express/-/grunt-express-1.4.1.tgz
+1314 http fetch 200 https://registry.npmjs.org/grunt-contrib-coffee/-/grunt-contrib-coffee-0.12.0.tgz
+1315 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\cookie-parser\1.3.3\package\package.json not in flight; writing
+1316 silly fetchAndShaCheck shasum 715f66ec7815a1ff33fd46105e0ce1242f9e7fee
+1317 http fetch 200 https://registry.npmjs.org/grunt-karma/-/grunt-karma-0.9.0.tgz
+1318 silly fetchAndShaCheck shasum 8ffe081ad3a47de0cea0d1e4f1565ce453edc61e
+1319 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-concurrent\-\grunt-concurrent-1.0.0.tgz not in flight; verifying
+1320 verbose addTmpTarball already have metadata; skipping unpack
+1321 http fetch 200 https://registry.npmjs.org/grunt-contrib-sass/-/grunt-contrib-sass-0.8.1.tgz
+1322 http fetch 200 https://registry.npmjs.org/grunt-contrib-csslint/-/grunt-contrib-csslint-0.3.1.tgz
+1323 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-express\-\grunt-express-1.4.1.tgz not in flight; verifying
+1324 verbose addTmpTarball already have metadata; skipping unpack
+1325 silly fetchAndShaCheck shasum c00fd7fa29615819adcb044a43b82b12ca3eb9a0
+1326 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\qunit\0.7.5\package\package.json not in flight; writing
+1327 http fetch 200 https://registry.npmjs.org/grunt-contrib-cssmin/-/grunt-contrib-cssmin-0.10.0.tgz
+1328 http fetch 200 https://registry.npmjs.org/vhost/-/vhost-3.0.0.tgz
+1329 http fetch 200 https://registry.npmjs.org/helmet/-/helmet-0.4.1.tgz
+1330 http fetch 200 https://registry.npmjs.org/grunt-shell-spawn/-/grunt-shell-spawn-0.3.0.tgz
+1331 http fetch 200 https://registry.npmjs.org/karma-opera-launcher/-/karma-opera-launcher-0.1.0.tgz
+1332 silly fetchAndShaCheck shasum e05f341e753a9674b2b1070220fdcbac22079418
+1333 silly fetchAndShaCheck shasum de3d6ac478ffca350e729f3457457d5b0910e96b
+1334 silly fetchAndShaCheck shasum 97f840b65693db2dda176f8ed678ef1435c846a2
+1335 silly fetchAndShaCheck shasum 2d0ec59a3e012278b65adbe17c1717a5a5023045
+1336 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-coffee\-\grunt-contrib-coffee-0.12.0.tgz not in flight; verifying
+1337 verbose addTmpTarball already have metadata; skipping unpack
+1338 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-karma\-\grunt-karma-0.9.0.tgz not in flight; verifying
+1339 verbose addTmpTarball already have metadata; skipping unpack
+1340 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\vhost\-\vhost-3.0.0.tgz not in flight; verifying
+1341 verbose addTmpTarball already have metadata; skipping unpack
+1342 silly fetchAndShaCheck shasum 47f556acafb68d9784b51d93d4ed15605af74535
+1343 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-env\-\grunt-env-0.4.2.tgz not in flight; verifying
+1344 verbose addTmpTarball already have metadata; skipping unpack
+1345 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-express\1.4.1\package\package.json not in flight; writing
+1346 silly fetchAndShaCheck shasum 751c89db4e686a8327d291f19a58b34f00dbd078
+1347 silly fetchAndShaCheck shasum 8de924480dc12a51d35abe96a721682afc88d800
+1348 http fetch 200 https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.6.1.tgz
+1349 http fetch 200 https://registry.npmjs.org/method-override/-/method-override-2.2.0.tgz
+1350 silly fetchAndShaCheck shasum 5f2fe259ba3352f0c00c18f48555612d851cc783
+1351 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-concurrent\1.0.0\package\package.json not in flight; writing
+1352 silly fetchAndShaCheck shasum aca2963130230b146c96081afa47f6b69546155d
+1353 http fetch 200 https://registry.npmjs.org/grunt-contrib-jshint/-/grunt-contrib-jshint-0.10.0.tgz
+1354 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-cssmin\-\grunt-contrib-cssmin-0.10.0.tgz not in flight; verifying
+1355 verbose addTmpTarball already have metadata; skipping unpack
+1356 http fetch 200 https://registry.npmjs.org/grunt-contrib-jasmine/-/grunt-contrib-jasmine-0.8.0.tgz
+1357 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\helmet\-\helmet-0.4.1.tgz not in flight; verifying
+1358 verbose addTmpTarball already have metadata; skipping unpack
+1359 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-csslint\-\grunt-contrib-csslint-0.3.1.tgz not in flight; verifying
+1360 verbose addTmpTarball already have metadata; skipping unpack
+1361 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-sass\-\grunt-contrib-sass-0.8.1.tgz not in flight; verifying
+1362 verbose addTmpTarball already have metadata; skipping unpack
+1363 http fetch 200 https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.5.tgz
+1364 http fetch 200 https://registry.npmjs.org/body-parser/-/body-parser-1.9.0.tgz
+1365 silly fetchAndShaCheck shasum 57ebccca87e8f327af6645d8a3c586d4845e4d81
+1366 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-shell-spawn\-\grunt-shell-spawn-0.3.0.tgz not in flight; verifying
+1367 verbose addTmpTarball already have metadata; skipping unpack
+1368 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\karma-opera-launcher\-\karma-opera-launcher-0.1.0.tgz not in flight; verifying
+1369 verbose addTmpTarball already have metadata; skipping unpack
+1370 silly fetchAndShaCheck shasum 177e852b6add3b4f9177033a9446b01e7801a0c0
+1371 http fetch 200 https://registry.npmjs.org/connect-flash/-/connect-flash-0.1.1.tgz
+1372 silly fetchAndShaCheck shasum 64fdcba25a635f5b4da1b6ce6f90da0aeb6e3f15
+1373 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-karma\0.9.0\package\package.json not in flight; writing
+1374 http fetch 200 https://registry.npmjs.org/time-grunt/-/time-grunt-1.0.0.tgz
+1375 silly fetchAndShaCheck shasum 95d72943b1a4f67f56bbac9e0dcc837b68703605
+1376 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-jshint\-\grunt-contrib-jshint-0.10.0.tgz not in flight; verifying
+1377 verbose addTmpTarball already have metadata; skipping unpack
+1378 silly fetchAndShaCheck shasum 70e95dca5c4d7a15884850daa3ab60d648dbfe8b
+1379 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\vhost\3.0.0\package\package.json not in flight; writing
+1380 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-env\0.4.2\package\package.json not in flight; writing
+1381 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-coffee\0.12.0\package\package.json not in flight; writing
+1382 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-cssmin\0.10.0\package\package.json not in flight; writing
+1383 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\method-override\-\method-override-2.2.0.tgz not in flight; verifying
+1384 verbose addTmpTarball already have metadata; skipping unpack
+1385 http fetch 200 https://registry.npmjs.org/supertest/-/supertest-0.14.0.tgz
+1386 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-watch\-\grunt-contrib-watch-0.6.1.tgz not in flight; verifying
+1387 verbose addTmpTarball already have metadata; skipping unpack
+1388 http fetch 200 https://registry.npmjs.org/grunt-buster/-/grunt-buster-0.3.2.tgz
+1389 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\body-parser\-\body-parser-1.9.0.tgz not in flight; verifying
+1390 verbose addTmpTarball already have metadata; skipping unpack
+1391 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\karma-chrome-launcher\-\karma-chrome-launcher-0.1.5.tgz not in flight; verifying
+1392 verbose addTmpTarball already have metadata; skipping unpack
+1393 http fetch 200 https://registry.npmjs.org/morgan/-/morgan-1.3.2.tgz
+1394 silly fetchAndShaCheck shasum 6b27654339c5d69ac5992b131e2a7d140a30c2a1
+1395 http fetch 200 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.6.0.tgz
+1396 silly fetchAndShaCheck shasum d8630f26d95a7f851f9956b1e8cc6732f3b6aa30
+1397 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\helmet\0.4.1\package\package.json not in flight; writing
+1398 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\time-grunt\-\time-grunt-1.0.0.tgz not in flight; verifying
+1399 verbose addTmpTarball already have metadata; skipping unpack
+1400 http fetch 200 https://registry.npmjs.org/express/-/express-4.9.7.tgz
+1401 silly fetchAndShaCheck shasum 33209d42c8dc7cb40b02404c0295bc19b743a549
+1402 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-csslint\0.3.1\package\package.json not in flight; writing
+1403 silly fetchAndShaCheck shasum d385a8ebced95350de8bde26460d848917dee305
+1404 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\connect-flash\-\connect-flash-0.1.1.tgz not in flight; verifying
+1405 verbose addTmpTarball already have metadata; skipping unpack
+1406 silly fetchAndShaCheck shasum 3a271d4dc4daba64691d0d0d08550ec54a7ec0ab
+1407 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-jasmine\-\grunt-contrib-jasmine-0.8.0.tgz not in flight; verifying
+1408 verbose addTmpTarball already have metadata; skipping unpack
+1409 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-sass\0.8.1\package\package.json not in flight; writing
+1410 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-watch\0.6.1\package\package.json not in flight; writing
+1411 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\supertest\-\supertest-0.14.0.tgz not in flight; verifying
+1412 verbose addTmpTarball already have metadata; skipping unpack
+1413 silly fetchAndShaCheck shasum ae3e0bdf0095749467fde125afd77e7988ff0fbb
+1414 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-contrib-uglify\-\grunt-contrib-uglify-0.6.0.tgz not in flight; verifying
+1415 verbose addTmpTarball already have metadata; skipping unpack
+1416 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\express\-\express-4.9.7.tgz not in flight; verifying
+1417 verbose addTmpTarball already have metadata; skipping unpack
+1418 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\karma-chrome-launcher\0.1.5\package\package.json not in flight; writing
+1419 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\time-grunt\1.0.0\package\package.json not in flight; writing
+1420 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\connect-flash\0.1.1\package\package.json not in flight; writing
+1421 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\body-parser\1.9.0\package\package.json not in flight; writing
+1422 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\express\4.9.7\package\package.json not in flight; writing
+1423 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\supertest\0.14.0\package\package.json not in flight; writing
+1424 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-jasmine\0.8.0\package\package.json not in flight; writing
+1425 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-uglify\0.6.0\package\package.json not in flight; writing
+1426 silly fetchAndShaCheck shasum 0825116a7e1ba717212fb41911db0e0c359c1578
+1427 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\grunt-buster\-\grunt-buster-0.3.2.tgz not in flight; verifying
+1428 verbose addTmpTarball already have metadata; skipping unpack
+1429 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\karma-opera-launcher\0.1.0\package\package.json not in flight; writing
+1430 silly fetchAndShaCheck shasum ac41aa15221ee4e5f2ac843896b6918139a18efd
+1431 verbose addTmpTarball C:\Users\Sean\AppData\Local\Temp\npm-10988-237e45c5\registry.npmjs.org\morgan\-\morgan-1.3.2.tgz not in flight; verifying
+1432 verbose addTmpTarball already have metadata; skipping unpack
+1433 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-shell-spawn\0.3.0\package\package.json not in flight; writing
+1434 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-contrib-jshint\0.10.0\package\package.json not in flight; writing
+1435 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\morgan\1.3.2\package\package.json not in flight; writing
+1436 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\grunt-buster\0.3.2\package\package.json not in flight; writing
+1437 verbose afterAdd C:\Users\Sean\AppData\Roaming\npm-cache\method-override\2.2.0\package\package.json not in flight; writing
+1438 verbose stack Error: 404 Not Found: karma-jasmine-runner
+1438 verbose stack     at RegClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:258:14)
+1438 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:197:65)
+1438 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:237:22)
+1438 verbose stack     at Request.emit (events.js:98:17)
+1438 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1146:14)
+1438 verbose stack     at Request.emit (events.js:117:20)
+1438 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1097:12)
+1438 verbose stack     at IncomingMessage.emit (events.js:117:20)
+1438 verbose stack     at _stream_readable.js:943:16
+1438 verbose stack     at process._tickCallback (node.js:419:13)
+1439 verbose statusCode 404
+1440 verbose pkgid karma-jasmine-runner
+1441 verbose cwd c:\repos\nutrichik
+1442 error Windows_NT 6.2.9200
+1443 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1444 error node v0.10.32
+1445 error npm  v2.1.3
+1446 error code E404
+1447 error 404 Not Found: karma-jasmine-runner
+1447 error 404
+1447 error 404 'karma-jasmine-runner' is not in the npm registry.
+1447 error 404 You should bug the author to publish it (or use the name yourself!)
+1447 error 404 It was specified as a dependency of 'nutrichik'
+1447 error 404
+1447 error 404 Note that you can also install from a
+1447 error 404 tarball, folder, http url, or git url.
+1448 verbose exit [ 1, true ]
