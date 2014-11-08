@@ -41,15 +41,20 @@ input[type="checkbox"].input-validation-error {
     display: none;
 }
 
-.main-nav {
-    width: 15em;
-    display: inline-block;
-}
-
-.main-nav a {
-    display: block;
-}
-
 origin-vid {
     background-color: azure;
+}
+
+.dropDown li {
+    display: inline;
+    list-style-type: none;
+}
+
+.dropDown .dropDown {
+    display: none;
+    width: 250px;
+}
+
+.dropDown .dropDown li {
+    display: block;
 }
