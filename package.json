@@ -24,7 +24,10 @@
     "morgan": "latest",
 
     "passport": "latest",
-    "passport-local": "latest"
+    "passport-local": "latest",
+
+    "dustjs-linkedin": "latest",
+    "dustjs-helpers": "latest"
   },
   "devDependencies": {
     "grunt": "latest",

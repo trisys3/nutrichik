@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>{#title}Loading...{/title}</title>
+
+		<meta charset="utf-8" />
+
+		<!--external CSS stylesheet-->
+		{#extStyles}<link rel="stylesheet" type="text/css" href="{.}" />{/extStyles}
+
+	</head>
+
+	<body>
+
+		<header>
+			{>header/}
+		</header>
+
+		<section>
+			{>"{module}.html"/}
+		</section>
+
+		<footer>
+			{>footer/}
+		</footer>
+
+		<!--external JavaScript scripts-->
+		{#extScripts}<script type="text/javascript" src="{.}"></script>{/extScripts}
+
+	</body>
+
+</html>

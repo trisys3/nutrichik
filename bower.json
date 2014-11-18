@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "homepage": "https://github.com/trisys3/nutrichik",
   "authors": [
-    "sean_r_moran@msn.com <sean_r_moran@msn.com>"
+    {
+      "name": "Sean Moran",
+      "email": "sean_r_moran@msn.com <sean_r_moran@msn.com>"
+    }
   ],
   "description": "My sister Shannon's nutrition site",
   "dependencies": {
@@ -25,7 +28,7 @@
     "jquery-ui": "latest"
   },
   "devDependencies": {
-    "qunit"
+    "qunit": "latest"
   },
   "moduleType": [
     "amd",
@@ -42,8 +45,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "app/libs",
+    "test"
   ]
 }
