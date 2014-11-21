@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var crypto = require('crypto');
+var DietSchema = mongoose.model('Diet');
 
 // user collection schema
 var UserSchema = new Schema({
@@ -87,6 +87,12 @@ var UserSchema = new Schema({
 	tempPasswordExpires: {
 		type: Date,
 		default: null
+	},
+
+	// user's current diet(s)
+	diet: {
+		type: [DietSchema],
+		default: []
 	}
 });
 
@@ -127,4 +133,4 @@ UserSchema.methods.authenticate = function(password) {
 	}
 };
 
-module.exports = exports = mongoose.model('User', UserSchema);
+mongoose.model('User', UserSchema);

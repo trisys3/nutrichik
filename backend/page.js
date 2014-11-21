@@ -82,13 +82,13 @@ server.enable('jsonp callback');
 server.use(cookieParser()); // cookie-parsing middleware
 
 // create the database object
-var monServer = mongoose.connect(environ.dbUrl);
+var monServer = mongoose.connect(env.dbUrl);
 
 // create a client-server session, using a MongoDB collection/table to store its info
 server.use(session({
 	resave: true,
 	saveUninitialized: true,
-	secret: environ.sessionSecret,
+	secret: env.sessionSecret,
 	store: new mongoStore({
 		mongoose_connection: monServer.connections[0], // specify the database these sessions will be saved into
 		auto_reconnect: true
@@ -110,7 +110,7 @@ server.use(helmet.csp({ // Content Security Policy (CSP) headers
 	objectSrc: ['nutrichik.com:*', '*.nutrichik.com:*'], // only allows plugins from this domain
 	mediaSrc: ['nutrichik.com:*', '*.nutrichik.com:*'], // only allows audio & video from this domain
 	frameSrc: ['\'none\''], // does not allow frames inside webpages on this site
-	reportUri: ['/csp/report-violation'], // where reports will be sent to
+	reportUri: ['/.csp/report-violation'], // where reports will be sent to
 	reportOnly: false, // generate errors as well as other reports
 	setAllHeaders: true, // do not set all headers
 	safari5: false // do not implement CSP on clients served via Safari 5

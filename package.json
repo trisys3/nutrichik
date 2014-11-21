@@ -13,18 +13,23 @@
   "dependencies": {
     "bower": "latest",
     "express": "latest",
+    "lodash": "latest",
 
     "body-parser": "latest",
     "method-override": "latest",
     "cookie-parser": "latest",
     "vhost": "latest",
     "compression": "latest",
-    "connect-flash": "latest",
+    "express-session": "latest",
+    "connect-mongo": "latest",
     "helmet": "latest",
     "morgan": "latest",
+    "consolidate": "latest",
+    "mongoose": "latest",
 
     "passport": "latest",
     "passport-local": "latest",
+    "scrypt": "latest",
 
     "dustjs-linkedin": "latest",
     "dustjs-helpers": "latest"

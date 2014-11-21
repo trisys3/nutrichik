@@ -32,7 +32,7 @@ module.exports = {
 			'/libs/angular-ui-router/release/angular-ui-router.js',
 			'/libs/angular-ui-utils/ui-utils.js',
 
-			'/dist/main/js/head.js'
+			'/main/js/head.js'
 		];
 
 		return scripts;
@@ -40,22 +40,21 @@ module.exports = {
 
 	getModularJs: function(module) {
 		var moduleScripts = [];
-			if(_.isString(module)) {
-				module = [module];
-			}
-			if(_.isArray(module)) {
-				_.forOwn(module, function(val) {
-					moduleScripts.push(
-						'/src/' + val + 'js/app.js',
-						'/src/' + val + '/js/config/' + val + 'Rte.js',
-						'/src/' + val + '/js/controllers/' + val + 'Ctrl.js',
-						'/src/' + val + '/js/services/' + val + 'Serv.js',
-						'/src/' + val + '/js/filters/' + val + 'Fils.js',
-						'/src/' + val + '/js/directives' + val + 'Direc.js'
-					);
-				});
-			}
-		];
+		if(_.isString(module)) {
+			module = [module];
+		}
+		if(_.isArray(module)) {
+			_.forOwn(module, function(val) {
+				moduleScripts.push(
+					'/src/' + val + '/js/app.js',
+					'/src/' + val + '/js/config/' + val + 'Rte.js',
+					'/src/' + val + '/js/controllers/' + val + 'Ctrl.js',
+					'/src/' + val + '/js/services/' + val + 'Serv.js',
+					'/src/' + val + '/js/filters/' + val + 'Fils.js',
+					'/src/' + val + '/js/directives/' + val + 'Direc.js'
+				);
+			});
+		}
 
 		return moduleScripts;
 	},
@@ -65,7 +64,7 @@ module.exports = {
 
 			// Bootstrap
 			'/libs/bootstrap-css/css/bootstrap.css',
-			'/libs/bootstrap-css/css/bootstrap-theme.css'
+			'/libs/bootstrap-css/css/bootstrap-theme.css',
 
 			// jQuery UI themes & other CSS functionality
 			'/libs/jquery-ui/themes/base/all.css',
