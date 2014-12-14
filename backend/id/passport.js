@@ -3,9 +3,7 @@
 var passport = require('passport');
 var mongoose = require('mongoose');
 var UserModel = mongoose.model('User');
-var path = require('path');
 var fs = require('fs');
-var _ = require('lodash');
 
 module.exports = exports = function() {
 	// serialize our Passport sessions

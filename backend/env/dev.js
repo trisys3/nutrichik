@@ -72,6 +72,8 @@ module.exports = {
 			// Angular CSP-compliant stylesheet
 			'/libs/angular/angular-csp.css'
 		];
+
+		return styles;
 	},
 
 	getModularCss: function(module) {

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "dietsServ.js",
+  "sourceRoot": "../../coffee/services/",
+  "sources": [
+    "dietsServ.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,mBAAf,EAAoC,EAApC,CAFA,CAAA;AAAA"
+}

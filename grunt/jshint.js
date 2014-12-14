@@ -46,11 +46,11 @@ module.exports = {
 	log: {
 		src: '<%= patterns.checkJsDev %>',
 		options: {
-			devel: true // allow development global variables
+			devel: true, // allow development global variables
 
 			reporterOutput: 'log/errs/jsHint.js' // error output file
 		}
-	}
+	},
 
 	// check all non-library JavaScript frontend files, optimized for browsers older than IE9
 	old: {
@@ -59,7 +59,7 @@ module.exports = {
 			es3: true, // comply with ES3 standards
 			strict: false // disallow ES5 "strict" mode, as it breaks older browsers
 		}
-	}
+	},
 
 	// check all non-library JavaScript frontend files & log results, optimized for browsers older than IE9
 	oldLog: {
@@ -70,7 +70,7 @@ module.exports = {
 
 			reporterOutput: 'log/errs/jsHint.js' // error output file
 		}
-	}
+	},
 
 	// check all non-library JavaScript frontend files, optimized for production
 	prod: {
@@ -83,7 +83,7 @@ module.exports = {
 		options: {
 			reporterOutput: 'log/errs/jsHint.js'
 		}
-	}
+	},
 
 	// check all backend JavaScript files
 	back: {
@@ -93,7 +93,7 @@ module.exports = {
 			jquery: false, // jQuery is not needed, so disallow its global variables
 			browser: false // we are not in the browser, so disallow browser global variables
 		}
-	}
+	},
 
 	// check all backend JavaScript files & log results
 	backLog: {

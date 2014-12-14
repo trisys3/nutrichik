@@ -14,7 +14,7 @@ module.exports = {
 		// only warn when using backticks
 		"no_backticks": {
 			"level": "warn"
-		}
+		},
 		// allow tabs when indenting
 		"no_tabs": {
 			"level": "ignore"

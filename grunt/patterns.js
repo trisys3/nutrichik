@@ -1,3 +1,5 @@
+'use strict';
+
 // file patterns for Grunt tasks
 module.exports = {
 
@@ -17,7 +19,7 @@ module.exports = {
 		expand: true,
 		cwd: 'app/src',
 		src: ['**/*.sass', '**/*.scss']
-	}].
+	}],
 
 	// syntax-checking pattern for CoffeeScript
 	checkCoffee: [{

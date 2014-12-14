@@ -27,6 +27,6 @@ module.exports = {
 
 	// check all CSS files for production
 	checkProd: {
-		files: '<%= patterns.checkCssDev %>'
+		files: '<%= patterns.checkCssProd %>'
 	}
 };

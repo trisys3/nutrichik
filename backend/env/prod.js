@@ -1,7 +1,5 @@
 'use strict';
 
-var _ = require('lodash');
-
 // variables & functions for production environment
 module.exports = {
 	port: process.env.SERVER_PORT || 3000, // server port
@@ -25,9 +23,11 @@ module.exports = {
 			'/libs/angular-route/angular-route.min.js',
 			'/libs/angular-resource/angular-resource.min.js',
 			'/libs/angular-animate/angular-animate.min.js',
-			'/libs/angular-cookies/angular-cookies.min.js'/
+			'/libs/angular-cookies/angular-cookies.min.js'
 
 			
 		];
+
+		return scripts;
 	},
 };

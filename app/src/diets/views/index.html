@@ -1,0 +1,21 @@
+<carousel>
+	<a class="left carousel-control" ng-click="prev()">
+		<span class="glyphicon glyphicon-chevron-left" data-aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<carousel-inner>
+		<div ng-repeat="diet in diets">
+			<ui-view name="info"></ui-view>
+		</div>
+		<div data-ng-if="diets.$resolved && !diets.length">
+			No diets found. Would you like to <a href="/diet/add">create one</a>?
+		</div>
+	</carousel-inner>
+	<ol class="carousel-indicators">
+		<li ng-repeat="diet in diets"></li>
+	</ol>
+	<a class="right carousel-control" ng-click="next()">
+		<span class="glyphicon glyphicon-chevron-right" data-aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</carousel>

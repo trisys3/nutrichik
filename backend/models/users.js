@@ -4,6 +4,8 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var DietSchema = mongoose.model('Diet');
 
+var scrypt = require('scrypt');
+
 // user collection schema
 var UserSchema = new Schema({
 

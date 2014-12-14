@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "mainCtrl.js",
+  "sourceRoot": "../../coffee/controllers/",
+  "sources": [
+    "mainCtrl.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,sBAAf,EAAuC,EAAvC,CACE,CAAC,UADH,CACc,UADd,EAC0B,CAAC,QAAD,EAAW,SAAC,MAAD,GAAA,CAAX,CAD1B,CAKE,CAAC,UALH,CAKc,UALd,EAK0B,CAAC,QAAD,EAAW,SAAC,MAAD,GAAA,CAAX,CAL1B,CAFA,CAAA;AAAA"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "dietsFils.js",
+  "sourceRoot": "../../coffee/filters/",
+  "sources": [
+    "dietsFils.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,kBAAf,EAAmC,EAAnC,CAFA,CAAA;AAAA"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "welcomeRte.js",
+  "sourceRoot": "../../coffee/config/",
+  "sources": [
+    "welcomeRte.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,mBAAf,EAAoC,CAAC,WAAD,CAApC,CACE,CAAC,MADH,CACU;IAAC,gBAAD,EAAmB,SAAC,cAAD,GAAA,CAAnB,EACR,cACA,CAAC,KADD,CACO,SADP,EAEC;AAAA,MAAA,GAAA,EAAK,GAAL;AAAA,MACA,WAAA,EAAa,mCADb;KAFD,CADQ;GADV,CAFA,CAAA;AAAA"
+}

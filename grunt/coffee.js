@@ -4,7 +4,7 @@ module.exports = {
 	// options for all tasks
 	options: {
 		sourceMap: true
-	}
+	},
 
 	// change all frontend CoffeeScript files into JavaScript
 	front: {

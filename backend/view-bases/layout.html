@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-ng-app="{module}App" data-ng-csp="" data-ng-strict-di="">
+<html data-ng-app="{module}App" data-ng-csp="" data-ng-strict-di="" ng-cloak="">
 	<head>
 
 		<title>{#title}Loading...{/title}</title>
@@ -18,7 +18,7 @@
 		</header>
 
 		<section>
-			{>"{module}.html"/}
+			<ui-view name=""></ui-view>
 		</section>
 
 		<footer>
